@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>期权：四种头寸到期盈亏互动图</title>
+<style>
+:root{color-scheme:light;font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;background:#f8f9fc;color:#202532}
+*{box-sizing:border-box}body{max-width:1100px;margin:0 auto;padding:24px}
+h1{font-size:25px;margin-bottom:6px}p{line-height:1.65;color:#4f586a}
+article{background:white;padding:22px;border:1px solid #e2e6ee;border-radius:12px}
+.controls{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px;margin:22px 0}
+label{font-weight:600;font-size:14px}input,select{display:block;width:100%;margin-top:10px}
+input[type=range]{accent-color:#305db9}select{font-size:15px;padding:8px;border:1px solid #ccd4e2;border-radius:6px}
+.legend{display:flex;flex-wrap:wrap;gap:18px;margin:14px 0}.legend span{font-size:13px}
+.dot{display:inline-block;width:14px;height:5px;vertical-align:middle;margin-right:5px}
+svg{width:100%;height:auto;border:1px solid #eaedf2;border-radius:10px;background:#fff}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px;margin:16px 0}
+.stats div{background:#f0f4fa;padding:14px;border-radius:8px}.stats strong{display:block;font-size:18px;margin-top:4px}
+small{color:#687085}.callout{padding:14px;background:#f1f4f9;border-left:3px solid #576779;margin-top:18px}
+@media(max-width:600px){body{padding:12px}article{padding:14px}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<article>
+<h1>四种基本期权头寸 · 到期损益图</h1>
+<p>拖动参数，观察<strong>到期</strong>盈亏线如何变化。纵轴为<strong>每股净收益（美元）</strong>；一张标准美股股票期权合约乘数通常为 100，盈亏额乘以 100。此页不使用网络或实时行情。</p>
+<div class="controls">
+<div><label for="kind">重点观察头寸</label><select id="kind"><option value="longCall">买 Call</option><option value="longPut">买 Put</option><option value="shortCall">卖 Call（裸）</option><option value="shortPut">卖 Put（裸）</option></select></div>
+<div><label for="k">行权价 K：<output id="kv">100</output></label><input id="k" type="range" min="50" max="150" step="5" value="100"></div>
+<div><label for="premium">权利金 p：<output id="pv">5</output></label><input id="premium" type="range" min="1" max="20" step="1" value="5"></div>
+<div><label for="st">到期股价 ST：<output id="sv">110</output></label><input id="st" type="range" min="0" max="200" step="1" value="110"></div>
+</div>
+<svg viewBox="0 0 880 380" role="img" aria-label="横轴到期股价、纵轴到期每股净损益，显示四种期权头寸曲线">
+<g id="grid"></g><g id="curves"></g><g id="mark"></g>
+</svg>
+<div class="legend"><span><i class="dot" style="background:#1769aa"></i>买 Call</span><span><i class="dot" style="background:#21916f"></i>买 Put</span><span><i class="dot" style="background:#bb473c"></i>卖 Call</span><span><i class="dot" style="background:#995db0"></i>卖 Put</span></div>
+<div class="stats">
+<div><small>选中头寸：到期盈亏平衡价</small><strong id="be">—</strong></div>
+<div><small>选中头寸：指定股价下每张 P/L</small><strong id="pl">—</strong></div>
+<div><small>选中头寸：理论到期最大亏损</small><strong id="loss">—</strong></div>
+<div><small>选中头寸：理论到期最大盈利</small><strong id="gain">—</strong></div>
+</div>
+<div class="callout" id="note"></div>
+<p><small>教学假设：到期价 ST ≥ 0，每张乘数 100，不计费用、分红、提前指派、保证金、融资、税费。绿色/红色等颜色只用于分辨曲线，不代表推荐买卖。裸卖 Call 最大亏损无上限，图的横轴只显示 0–200 的有限区间。</small></p>
+</article>
+<script>
+(function(){
+var names={longCall:'买 Call',longPut:'买 Put',shortCall:'卖 Call',shortPut:'卖 Put'};
+var colors={longCall:'#1769aa',longPut:'#21916f',shortCall:'#bb473c',shortPut:'#995db0'};
+var types=['longCall','longPut','shortCall','shortPut'];
+var ns='http://www.w3.org/2000/svg';
+var controls={kind:document.getElementById('kind'),k:document.getElementById('k'),premium:document.getElementById('premium'),st:document.getElementById('st')};
+function payoff(kind,s,k,p){var call=Math.max(s-k,0),put=Math.max(k-s,0);return kind==='longCall'?call-p:kind==='longPut'?put-p:kind==='shortCall'?p-call:p-put}
+function create(tag,attrs,root,text){var el=document.createElementNS(ns,tag);Object.keys(attrs).forEach(function(a){el.setAttribute(a,attrs[a])});if(text!==undefined)el.textContent=text;root.appendChild(el);return el}
+function draw(){var k=+controls.k.value,p=+controls.premium.value,s=+controls.st.value,focus=controls.kind.value;
+document.getElementById('kv').textContent=k;document.getElementById('pv').textContent=p;document.getElementById('sv').textContent=s;
+var left=62,right=852,top=16,bottom=332;var all=[];types.forEach(function(t){for(var x=0;x<=200;x+=2)all.push(payoff(t,x,k,p))});
+var low=Math.min(-10,Math.min.apply(null,all)-10),high=Math.max(10,Math.max.apply(null,all)+10);
+function xx(x){return left+(right-left)*x/200}function yy(y){return bottom-(bottom-top)*(y-low)/(high-low)}
+var grid=document.getElementById('grid'),curves=document.getElementById('curves'),mark=document.getElementById('mark');grid.replaceChildren();curves.replaceChildren();mark.replaceChildren();
+for(var j=0;j<=4;j++){var x0=j*50;create('line',{x1:xx(x0),y1:top,x2:xx(x0),y2:bottom,stroke:'#edf0f4'},grid);create('text',{x:xx(x0),y:356,'text-anchor':'middle',fill:'#697386','font-size':13},grid,''+x0)}
+for(var h=0;h<=4;h++){var y0=low+(high-low)*h/4;create('line',{x1:left,y1:yy(y0),x2:right,y2:yy(y0),stroke:Math.abs(y0)<1?'#7d8796':'#edf0f4','stroke-width':Math.abs(y0)<1?1.8:1},grid);create('text',{x:54,y:yy(y0)+4,'text-anchor':'end',fill:'#697386','font-size':12},grid,y0.toFixed(0))}
+create('text',{x:450,y:375,'text-anchor':'middle','font-size':14,fill:'#5e6674'},grid,'到期股价 ST（美元）');
+types.forEach(function(t){var d='';for(var x=0;x<=200;x+=2){d+=(x===0?'M':'L')+xx(x).toFixed(1)+','+yy(payoff(t,x,k,p)).toFixed(1)+' '};create('path',{d:d,fill:'none',stroke:colors[t],'stroke-width':t===focus?4.2:1.6,opacity:t===focus?1:0.32},curves)});
+var be=(focus==='longCall'||focus==='shortCall')?k+p:k-p;var val=payoff(focus,s,k,p);
+create('line',{x1:xx(s),y1:top,x2:xx(s),y2:bottom,stroke:'#828a95','stroke-dasharray':'4 5'},mark);
+create('circle',{cx:xx(s),cy:yy(val),r:6,fill:colors[focus],stroke:'white','stroke-width':2},mark);
+create('line',{x1:xx(be),y1:top,x2:xx(be),y2:bottom,stroke:'#d39e32','stroke-dasharray':'3 5'},mark);
+document.getElementById('be').textContent=be>=0?'$'+be:'$'+be+'（理论）';
+document.getElementById('pl').textContent=(val>=0?'+$':'-$')+Math.abs(val*100).toLocaleString('en-US',{maximumFractionDigits:0});
+var isCall=focus==='longCall'||focus==='shortCall';
+var maxloss=focus==='shortCall'?'无上限':focus==='shortPut'?'$'+((k-p)*100).toLocaleString('en-US'):'$'+(p*100).toLocaleString('en-US');
+var maxgain=focus==='longCall'?'无上限':focus==='longPut'?'$'+((k-p)*100).toLocaleString('en-US'):'$'+(p*100).toLocaleString('en-US');
+document.getElementById('loss').textContent=maxloss;document.getElementById('gain').textContent=maxgain;
+document.getElementById('note').textContent=names[focus]+'：股价 ST='+s+' 时，每股到期净损益 = '+val.toFixed(2)+' 美元。注意：图中其他三条曲线只是结构比较，不代表使用同一个市场权利金就可以无套利交易。真实交易前必须核对 IV、Bid/Ask、成交量及提前指派风险。';
+}
+Object.keys(controls).forEach(function(k){controls[k].addEventListener('input',draw)});draw();
+})();
+</script>
+</body>
+</html>

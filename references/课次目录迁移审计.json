@@ -1,0 +1,435 @@
+{
+  "type": "one-folder-per-lesson",
+  "courseRoot": "课程",
+  "courses": 23,
+  "moves": 71,
+  "rewriteCount": 50,
+  "files": [
+    {
+      "old": "01-基础/L01-期权本质-盈亏平衡-杠杆.md",
+      "new": "课程/L01-期权本质-盈亏平衡-杠杆/讲义.md",
+      "originalSha256": "4792e3fa3edeca2bf2b5039dfb75f4462061228eb9538de36841f41d70780a6d",
+      "relocatedSha256": "1f894133c386ccaf4871ca14f94605c21caa88e01daa8c34517080d0e8a808c4"
+    },
+    {
+      "old": "01-基础/L01-教材级习题与详解.md",
+      "new": "课程/L01-期权本质-盈亏平衡-杠杆/习题与详解.md",
+      "originalSha256": "a9da71fc47604ecb3d618be4c588bf49b41c1f4ac666fb1340d4ec0e0c8ba4bd",
+      "relocatedSha256": "4c9ed94ea6311913ad3b213dc0fc512a1c4e5e05864d1105a90dcc7a86433584"
+    },
+    {
+      "old": "图解/L01-正股与期权到期损益.svg",
+      "new": "课程/L01-期权本质-盈亏平衡-杠杆/图解.svg",
+      "originalSha256": "98e5bb15fe781f45f0cac2482df231d78333082022c15bfc68b98bc1b9a9fed6",
+      "relocatedSha256": "98e5bb15fe781f45f0cac2482df231d78333082022c15bfc68b98bc1b9a9fed6"
+    },
+    {
+      "old": "01-基础/L02-合约结构-行权-结算.md",
+      "new": "课程/L02-合约结构-行权-结算/讲义.md",
+      "originalSha256": "4e10c54344105df67b3d973f07084c968806b16280d4b034614d742c2c732618",
+      "relocatedSha256": "52131bad9f9bbb15cdf1912f5fb36460c3d5c949210cdabb08644dad6b1a9b0b"
+    },
+    {
+      "old": "01-基础/L02-教材级习题与详解.md",
+      "new": "课程/L02-合约结构-行权-结算/习题与详解.md",
+      "originalSha256": "6962b685239a5cf1bffb9ab4b33ba607e8c7ed860fca983984042f66531abbe9",
+      "relocatedSha256": "8674a80c6098abfcd7f64e02257734b6eb6c4e00a162153790c619b859b6769e"
+    },
+    {
+      "old": "图解/L02-合约生命周期与交割.svg",
+      "new": "课程/L02-合约结构-行权-结算/图解.svg",
+      "originalSha256": "ca718208b169bd2b7e2d137c8837147f905fb6299d89bff9b5ebd4ecce5f8455",
+      "relocatedSha256": "ca718208b169bd2b7e2d137c8837147f905fb6299d89bff9b5ebd4ecce5f8455"
+    },
+    {
+      "old": "01-基础/L03-权利金-时间价值-IV.md",
+      "new": "课程/L03-权利金-时间价值-IV/讲义.md",
+      "originalSha256": "1cb81a066dfea0b17bf17f2f24c5c3c9103a8064b98fc1660e203ffdfc5bc3e4",
+      "relocatedSha256": "c959f0bd7fa9bae93701a4bef2b5deeb875dfe57b139a53965c3b74bb4a1b54a"
+    },
+    {
+      "old": "01-基础/L03-教材级习题与详解.md",
+      "new": "课程/L03-权利金-时间价值-IV/习题与详解.md",
+      "originalSha256": "6ba94ecf6379701988ad3d78fdeafeb5cc2bf719b25ac6487b1f428f426e7781",
+      "relocatedSha256": "ee3945811b85647872c6862cb55debee58e02f5188f0a310ca0b4ee168b54d6f"
+    },
+    {
+      "old": "图解/L03-权利金与IV指标对比.svg",
+      "new": "课程/L03-权利金-时间价值-IV/图解.svg",
+      "originalSha256": "7d6c6d3171eedb9b292ad1f9a84e64cbb687985ecec58e41a1f6497fef02761d",
+      "relocatedSha256": "7d6c6d3171eedb9b292ad1f9a84e64cbb687985ecec58e41a1f6497fef02761d"
+    },
+    {
+      "old": "01-基础/L04-四个头寸-收益曲线-风险.md",
+      "new": "课程/L04-四个头寸-收益曲线-风险/讲义.md",
+      "originalSha256": "6b1d444ca0f3b527ff712927ae8ce0a0fb7b20ef5711a2e950851b25cc857b9b",
+      "relocatedSha256": "39f222b3010b4792eeea764e20a1434daa15faaa1894bc6bb4896ada42d95dfb"
+    },
+    {
+      "old": "01-基础/L04-教材级习题与详解.md",
+      "new": "课程/L04-四个头寸-收益曲线-风险/习题与详解.md",
+      "originalSha256": "a60bae448ec1db8518b6291d886ad649888d12d5b850f4a863d50c1ac099f915",
+      "relocatedSha256": "16e921f76ce9a0a439e2fe67fe3534e2a058427f0460884d25d94e32dbcf1154"
+    },
+    {
+      "old": "图解/L04-四个头寸到期损益.svg",
+      "new": "课程/L04-四个头寸-收益曲线-风险/图解.svg",
+      "originalSha256": "e22a8604f7e2bf1b7d028e52e33af534e825ca3a43573663a6851a239da038ca",
+      "relocatedSha256": "e22a8604f7e2bf1b7d028e52e33af534e825ca3a43573663a6851a239da038ca"
+    },
+    {
+      "old": "02-希腊字母/L05-Delta-方向暴露与对冲.md",
+      "new": "课程/L05-Delta-方向暴露与对冲/讲义.md",
+      "originalSha256": "a0ca88fd7936d170611e70e74b9c60458d90d3f36d11d6f3d7e5439c04d8588f",
+      "relocatedSha256": "aa36043c2d76bc18dbde8050447d6e1816084a9ed78b422e4024fc15406aa736"
+    },
+    {
+      "old": "02-希腊字母/L05-教材级习题与详解.md",
+      "new": "课程/L05-Delta-方向暴露与对冲/习题与详解.md",
+      "originalSha256": "3b1eb318974c81177db224aa0d46edcababd0afd303a2d0f7c9e7ca8242fa661",
+      "relocatedSha256": "183c8f8c7e4eedbebe5428d90fa6e397a09b4a85b666e2a3a4bc57f2623f7ace"
+    },
+    {
+      "old": "图解/L05-Delta暴露与对冲.svg",
+      "new": "课程/L05-Delta-方向暴露与对冲/图解.svg",
+      "originalSha256": "eb0a7315c771337d150da66531b783e9a585361f2796e24365f429cfb5dcb0ea",
+      "relocatedSha256": "eb0a7315c771337d150da66531b783e9a585361f2796e24365f429cfb5dcb0ea"
+    },
+    {
+      "old": "02-希腊字母/L06-Gamma-Theta-非线性与时间损耗.md",
+      "new": "课程/L06-Gamma-Theta-非线性与时间损耗/讲义.md",
+      "originalSha256": "8262c4c0e120569e3caa26dae2764b98757808abec304d9162a17cae2ad320a2",
+      "relocatedSha256": "0ebd0731c17a86634d9b1c9403358cff673750acc9725eb7b212a0651eec49a0"
+    },
+    {
+      "old": "02-希腊字母/L06-教材级习题与详解.md",
+      "new": "课程/L06-Gamma-Theta-非线性与时间损耗/习题与详解.md",
+      "originalSha256": "1865d88ed3fb583a68395fda0b976cfbfdb33ccebcbe243ee098dd16126f3097",
+      "relocatedSha256": "df30c1a9af7bf09611f3930318fc89440a2f7bbae0948c32f6e8d959cf3e335b"
+    },
+    {
+      "old": "图解/L06-Gamma-Theta期限对比.svg",
+      "new": "课程/L06-Gamma-Theta-非线性与时间损耗/图解.svg",
+      "originalSha256": "7be9abce13081c96c268c709e4b581e0b381bcfeb055c9925452f2d3e4683478",
+      "relocatedSha256": "7be9abce13081c96c268c709e4b581e0b381bcfeb055c9925452f2d3e4683478"
+    },
+    {
+      "old": "02-希腊字母/L07-Vega-IV-RV-波动率风险溢价.md",
+      "new": "课程/L07-Vega-IV-RV-波动率风险溢价/讲义.md",
+      "originalSha256": "c8b6747a50413fb74cc3babdce09ac11a7a5233c5b91ae0707fa66fe011edc5a",
+      "relocatedSha256": "ae9b47d3714db680d8158dc24a4a1a88ed3774097ea477f42733d736eaf48406"
+    },
+    {
+      "old": "02-希腊字母/L07-教材级习题与详解.md",
+      "new": "课程/L07-Vega-IV-RV-波动率风险溢价/习题与详解.md",
+      "originalSha256": "c1b5921034959cf9e1a3f1c27c0d8111cd01fb3ada43e9c0fd2e3dd7d48f2491",
+      "relocatedSha256": "4725890bffe4a192d79e7ab0018ba413d8a9875db299beaefc40cf7fb4cc9c9d"
+    },
+    {
+      "old": "图解/L07-Vega与卖波动案例.svg",
+      "new": "课程/L07-Vega-IV-RV-波动率风险溢价/图解.svg",
+      "originalSha256": "f0869039148fd56019931acab07ca2ab4feb98097bbec047a61d4d8b55fcb076",
+      "relocatedSha256": "f0869039148fd56019931acab07ca2ab4feb98097bbec047a61d4d8b55fcb076"
+    },
+    {
+      "old": "02-希腊字母/L08-Rho-股息-期限偏斜与Greeks联动.md",
+      "new": "课程/L08-Rho-股息-期限偏斜与Greeks联动/讲义.md",
+      "originalSha256": "428dbb9f6519c875afccfbf6b9e783bf78635e1e470c42c5d3e44192e414091d",
+      "relocatedSha256": "9eed2f5c80caf2bd21b03ec0fc3725673dcc167b6fff1fd749c30851296632f8"
+    },
+    {
+      "old": "02-希腊字母/L08-教材级习题与详解.md",
+      "new": "课程/L08-Rho-股息-期限偏斜与Greeks联动/习题与详解.md",
+      "originalSha256": "098b3201103dbe6da17966d967730865ecf81830f4ec7282a4abc81d21db95d8",
+      "relocatedSha256": "0906bcd25ed169c7bd125a918f86a9dd1407f98a791608921b0a22212239398d"
+    },
+    {
+      "old": "图解/L08-期限结构与Gamma对冲.svg",
+      "new": "课程/L08-Rho-股息-期限偏斜与Greeks联动/图解.svg",
+      "originalSha256": "89a7743b4e5c3372e3cca31179057ff38224183ac2324a4a747f16fab7821e19",
+      "relocatedSha256": "89a7743b4e5c3372e3cca31179057ff38224183ac2324a4a747f16fab7821e19"
+    },
+    {
+      "old": "02-希腊字母/L09-期权链报价-概率期望与交易价值.md",
+      "new": "课程/L09-期权链报价-概率期望与交易价值/讲义.md",
+      "originalSha256": "f8e27ba0721ee91cd2ee735e98c8affb506f9e0322761c1f9992b411a85b7574",
+      "relocatedSha256": "927fe00f6cc87f709784ecfd1771a34f5c2ff60ef143636be70fb723daa430e0"
+    },
+    {
+      "old": "02-希腊字母/L09-教材级习题与详解.md",
+      "new": "课程/L09-期权链报价-概率期望与交易价值/习题与详解.md",
+      "originalSha256": "b02e8b0703e122d0bc08293d815d2a737655751b9657f4e0b32faf9aab519101",
+      "relocatedSha256": "cf31dcabf0d52f4a7d89766a5c64f24f7c6bc8796453793d64463d0531877247"
+    },
+    {
+      "old": "图解/L09-同股策略情景与期望.svg",
+      "new": "课程/L09-期权链报价-概率期望与交易价值/图解.svg",
+      "originalSha256": "77da8a0d37f6b3950406d6314cfe2d5f8cdac26c748fd2323616618cd8b1f3ee",
+      "relocatedSha256": "77da8a0d37f6b3950406d6314cfe2d5f8cdac26c748fd2323616618cd8b1f3ee"
+    },
+    {
+      "old": "03-投资应用/L10-LongCall-LongPut-LEAPS与正股.md",
+      "new": "课程/L10-LongCall-LongPut-LEAPS与正股/讲义.md",
+      "originalSha256": "31e4e8ee41a9d1c6b77b3d8d5bf5d636ddab401be74b3ed28e035ca4dde8a44c",
+      "relocatedSha256": "cae200ce0c79e761559e6acbcd6460534f366341b1db790fe332e510b7304dee"
+    },
+    {
+      "old": "03-投资应用/L10-教材级习题与详解.md",
+      "new": "课程/L10-LongCall-LongPut-LEAPS与正股/习题与详解.md",
+      "originalSha256": "2e1f3e6e09aaaf185e2126be75edccdbb25f1f65db559f5b4c48028649135797",
+      "relocatedSha256": "ebd4f54773762a0fa50642937db1637907b8f6f85e639792f64413481078225b"
+    },
+    {
+      "old": "图解/L10-正股与长期期权到期损益.svg",
+      "new": "课程/L10-LongCall-LongPut-LEAPS与正股/图解.svg",
+      "originalSha256": "03b146f24b56c309162e21ec800b339ac999e859eeed3cf9857d36b1a55667ff",
+      "relocatedSha256": "03b146f24b56c309162e21ec800b339ac999e859eeed3cf9857d36b1a55667ff"
+    },
+    {
+      "old": "03-投资应用/L11-现金担保Put-备兑Call与裸卖风险.md",
+      "new": "课程/L11-现金担保Put-备兑Call与裸卖风险/讲义.md",
+      "originalSha256": "c73b41386c33ff9b0a9af430a70bbea0bc56da49d8bedd0874efbfd9777fe726",
+      "relocatedSha256": "12dfdca181a8cb812f087d51d748fa6fc912619ea836a82abf0db2d3e5ea06f4"
+    },
+    {
+      "old": "03-投资应用/L11-教材级习题与详解.md",
+      "new": "课程/L11-现金担保Put-备兑Call与裸卖风险/习题与详解.md",
+      "originalSha256": "4757733d868134bd3903c7434ac52bd5464600214faa1a38ebd337f389f26804",
+      "relocatedSha256": "dc8dcef9ffc67c4e95a01d3decc0203912cf3d133fb0eb5d9c7f5451c7405444"
+    },
+    {
+      "old": "图解/L11-卖方策略与正股到期损益.svg",
+      "new": "课程/L11-现金担保Put-备兑Call与裸卖风险/图解.svg",
+      "originalSha256": "4cd8b4e3b3c8144aa0271e0adaf0f4b1df319a1ddd2b4326f23a857a6881a60f",
+      "relocatedSha256": "4cd8b4e3b3c8144aa0271e0adaf0f4b1df319a1ddd2b4326f23a857a6881a60f"
+    },
+    {
+      "old": "03-投资应用/L12-保护性Put-Collar与保险成本.md",
+      "new": "课程/L12-保护性Put-Collar与保险成本/讲义.md",
+      "originalSha256": "16e00b26b5252c051652ce42f60cf6177d0070dc7fa47f721376313f421d2f61",
+      "relocatedSha256": "1c1fba3075bb0dd2b5e6e7a20550d75b0556c287bcd08a8a893b3f46dcbb68ea"
+    },
+    {
+      "old": "03-投资应用/L12-教材级习题与详解.md",
+      "new": "课程/L12-保护性Put-Collar与保险成本/习题与详解.md",
+      "originalSha256": "f424372a522024c1930f9241930163fd991547e83469e3e14d72b081645943ab",
+      "relocatedSha256": "b6a27d5733e4121ffe64a44f9af04398292d5ee600b7fa2b236a711231581bdd"
+    },
+    {
+      "old": "图解/L12-保护性Put与Collar到期损益.svg",
+      "new": "课程/L12-保护性Put-Collar与保险成本/图解.svg",
+      "originalSha256": "5de0855b3833d5aea473757070538034de978e018dab226f5de61d9ec5950dae",
+      "relocatedSha256": "5de0855b3833d5aea473757070538034de978e018dab226f5de61d9ec5950dae"
+    },
+    {
+      "old": "03-投资应用/L13-事件跨式与宽跨式.md",
+      "new": "课程/L13-事件跨式与宽跨式/讲义.md",
+      "originalSha256": "77761b140464e0698a55cfa13f574562cf821f30d3e575269685ae261bac41c0",
+      "relocatedSha256": "197ded9ade3e6a69e007637c5379240d94371963ba77fcc2bce022d23a352155"
+    },
+    {
+      "old": "03-投资应用/L13-教材级习题与详解.md",
+      "new": "课程/L13-事件跨式与宽跨式/习题与详解.md",
+      "originalSha256": "a5e539595b81e500d312c26dc1f8f74cb7492edf6010be1ec7ebe21ec87e6b51",
+      "relocatedSha256": "568246db6dfa9be2c8593d48178331d51fcc5a0696e93c3cf1cd2b2c2803eb2f"
+    },
+    {
+      "old": "图解/L13-跨式与宽跨式四策略到期损益.svg",
+      "new": "课程/L13-事件跨式与宽跨式/图解.svg",
+      "originalSha256": "d2bfdfed507bbf9256bee688e6252a63f5f43dee60118d1463ccc608d03651be",
+      "relocatedSha256": "d2bfdfed507bbf9256bee688e6252a63f5f43dee60118d1463ccc608d03651be"
+    },
+    {
+      "old": "03-投资应用/L14-垂直价差.md",
+      "new": "课程/L14-垂直价差/讲义.md",
+      "originalSha256": "84678a05086fec1f04e8fb8ded7ee4aba95bd80f8404c9b5bdfd6038cf4faa9f",
+      "relocatedSha256": "436da715bed60321869322674aa0eb048223efb3c90d33099d10df84dfc24853"
+    },
+    {
+      "old": "03-投资应用/L14-教材级习题与详解.md",
+      "new": "课程/L14-垂直价差/习题与详解.md",
+      "originalSha256": "d8bc5a7d07447a0c6936088e0a53d638848ab4a7519a1c1f5319c3e106991142",
+      "relocatedSha256": "341d8ab7f23a280a9249aa0a42bf6e4100b4354feed29450f7cd184d125c0581"
+    },
+    {
+      "old": "图解/L14-四类垂直价差到期盈亏.svg",
+      "new": "课程/L14-垂直价差/图解.svg",
+      "originalSha256": "afa2f6d763c2c68d2a19ae106f474fb24b84feb684eb51ed9431117669097083",
+      "relocatedSha256": "afa2f6d763c2c68d2a19ae106f474fb24b84feb684eb51ed9431117669097083"
+    },
+    {
+      "old": "03-投资应用/L15-Calendar与Diagonal跨期价差.md",
+      "new": "课程/L15-Calendar与Diagonal跨期价差/讲义.md",
+      "originalSha256": "63f279bea865485fb70a5a6e804d9da7fbed33ff29f049452ae86f75bad04784",
+      "relocatedSha256": "49341efc0da7ae65ef38f0da8f669c7cdcc3d7bb76cc41e2a1b3314c70b9b599"
+    },
+    {
+      "old": "03-投资应用/L15-教材级习题与详解.md",
+      "new": "课程/L15-Calendar与Diagonal跨期价差/习题与详解.md",
+      "originalSha256": "b782fc4ec62271daea9976e6cc6fecf0fc536e75cabb816ba0db4671f6ba4a0e",
+      "relocatedSha256": "cce8146f58c63b4ab4e3cd772d696e93dc8440b91e9df56ba331edcc653f5ebe"
+    },
+    {
+      "old": "图解/L15-跨期价差短腿到期风险.svg",
+      "new": "课程/L15-Calendar与Diagonal跨期价差/图解.svg",
+      "originalSha256": "44a1d2321d2ec321ee1509840371203add299d0bee58ca5e25dc6820308ecdfb",
+      "relocatedSha256": "44a1d2321d2ec321ee1509840371203add299d0bee58ca5e25dc6820308ecdfb"
+    },
+    {
+      "old": "03-投资应用/L16-IronCondor铁鹰与四腿风险.md",
+      "new": "课程/L16-IronCondor铁鹰与四腿风险/讲义.md",
+      "originalSha256": "946a647bb42f29c5f789ed1c7ca5f2d982f7d492edba1e48abc2e1f6695d0bb5",
+      "relocatedSha256": "ceac1c7b3651d63458eae57a1560e88b7c34f3f6161233d5e127a6ce4023957b"
+    },
+    {
+      "old": "03-投资应用/L16-教材级习题与详解.md",
+      "new": "课程/L16-IronCondor铁鹰与四腿风险/习题与详解.md",
+      "originalSha256": "9661b511b5bdedf9293fe2f2c76e6e4b65947c02203f6896361df4234f532f44",
+      "relocatedSha256": "9dbf0ad956cd0acd32601149ed7e486587eb3483dbdd553b710287f9af6a2474"
+    },
+    {
+      "old": "图解/L16-铁鹰四腿到期损益与风险区间.svg",
+      "new": "课程/L16-IronCondor铁鹰与四腿风险/图解.svg",
+      "originalSha256": "65dbfa2d14f8e2fc43f0fdbd29b2fbb5968c62f8b35118cc814ca7558d68fa51",
+      "relocatedSha256": "65dbfa2d14f8e2fc43f0fdbd29b2fbb5968c62f8b35118cc814ca7558d68fa51"
+    },
+    {
+      "old": "03-投资应用/L17-Roll展期现金流与停止规则.md",
+      "new": "课程/L17-Roll展期现金流与停止规则/讲义.md",
+      "originalSha256": "9c572e3c34e1e4021ba47ae5e1ed862fa5d61032bf4c1d853ef71ee0f96dfe2c",
+      "relocatedSha256": "3ff95b3d6a68f1fe4e8668420017ba58f9600b71af9f1d09ec55c836517376b7"
+    },
+    {
+      "old": "03-投资应用/L17-教材级习题与详解.md",
+      "new": "课程/L17-Roll展期现金流与停止规则/习题与详解.md",
+      "originalSha256": "27751a76cc7f84e7d7cfa9c440668e8e51e54816ab9d1b2dce6c2ae4e1ec0079",
+      "relocatedSha256": "917a6c393898c3a8b5abd8b0a52b05ac0d43aba7d19fea4a2acd5195e381a005"
+    },
+    {
+      "old": "图解/L17-Roll展期现金流与情景比较.svg",
+      "new": "课程/L17-Roll展期现金流与停止规则/图解.svg",
+      "originalSha256": "cd959d61f2ea2352ba3dcba2e3e1f37dbe3845c126c4b8a2b5a5622b5693454b",
+      "relocatedSha256": "cd959d61f2ea2352ba3dcba2e3e1f37dbe3845c126c4b8a2b5a5622b5693454b"
+    },
+    {
+      "old": "03-投资应用/L18-保证金与账户生存.md",
+      "new": "课程/L18-保证金与账户生存/讲义.md",
+      "originalSha256": "220a936db5cab668356af96c02e575dfc308864c09d73e8ea1ca3e7a6a1c49e8",
+      "relocatedSha256": "3baa59f6f8bd9db3750cf47c5346aaa7917efe645379abe62404ae88ad41fcf8"
+    },
+    {
+      "old": "03-投资应用/L18-教材级习题与详解.md",
+      "new": "课程/L18-保证金与账户生存/习题与详解.md",
+      "originalSha256": "58b39a6e62a1e091a2f2d72c4f8273b9c2f22926c065511aac14a8f85b91dfae",
+      "relocatedSha256": "e26abace11b28053e8a1c726ffd49906420019d008545f25baacc07091c550d6"
+    },
+    {
+      "old": "图解/L18-保证金与账户生存双面板.svg",
+      "new": "课程/L18-保证金与账户生存/图解.svg",
+      "originalSha256": "5ab4e3d7034ff2d27b571be91c78d6bcdff49fe7970319c85d8475e10f125973",
+      "relocatedSha256": "5ab4e3d7034ff2d27b571be91c78d6bcdff49fe7970319c85d8475e10f125973"
+    },
+    {
+      "old": "03-投资应用/L19-事件股息拆股与指派.md",
+      "new": "课程/L19-事件股息拆股与指派/讲义.md",
+      "originalSha256": "cb98aba29876ed3e4341fba11cb2741a0f36ddfb04f16e3cd648e2fdc7cbc3bf",
+      "relocatedSha256": "3352041365d2272b91a35b10100c69ee793d3e663cedbcac5df2dd8833cb1db5"
+    },
+    {
+      "old": "03-投资应用/L19-教材级习题与详解.md",
+      "new": "课程/L19-事件股息拆股与指派/习题与详解.md",
+      "originalSha256": "42a2e0488ba074672cbad6a27e78a2abe6c1144c7f89f294ad647fcd69ae035b",
+      "relocatedSha256": "a8ce803a14e41d64fb1ea052ad2987e81146b5bf3e9ecc0cca0cf14e6d83bc7f"
+    },
+    {
+      "old": "图解/L19-财报股息与到期交割双面板.svg",
+      "new": "课程/L19-事件股息拆股与指派/图解.svg",
+      "originalSha256": "4b35fc9ec5848e8b5d7ad18743600b1dea4a8018083cc7a2855feb0c5cf78932",
+      "relocatedSha256": "4b35fc9ec5848e8b5d7ad18743600b1dea4a8018083cc7a2855feb0c5cf78932"
+    },
+    {
+      "old": "03-投资应用/L20-行权价与到期日选择.md",
+      "new": "课程/L20-行权价与到期日选择/讲义.md",
+      "originalSha256": "2776e4245a140634a170e9fa51c854ec27890561dea8abd710fdba3044574fd2",
+      "relocatedSha256": "6288fa586dfdcafa38f6c3cf39eb74cee31e1ae3257dc6d8f116c87b8524501d"
+    },
+    {
+      "old": "03-投资应用/L20-教材级习题与详解.md",
+      "new": "课程/L20-行权价与到期日选择/习题与详解.md",
+      "originalSha256": "c85b13ebad06cdc9858c6270e9a85cec48ceef7a7228490016d66b3c9dc11cca",
+      "relocatedSha256": "3e32e687ac14a8ad2e0cc58fa1e5060bf8d11d44d968bb8bace74ab1079b9eea"
+    },
+    {
+      "old": "图解/L20-行权价期限与可执行价值.svg",
+      "new": "课程/L20-行权价与到期日选择/图解.svg",
+      "originalSha256": "cc49806c09c002cd0cda05bdda021098b28ae7bf6ef1b8f2e46a09869a668bfa",
+      "relocatedSha256": "cc49806c09c002cd0cda05bdda021098b28ae7bf6ef1b8f2e46a09869a668bfa"
+    },
+    {
+      "old": "03-投资应用/L21-VIX期货期权与波动率风险.md",
+      "new": "课程/L21-VIX期货期权与波动率风险/讲义.md",
+      "originalSha256": "fe6e606161418f39eeacb4f3a8533d7eea1d9de1a4ce0d7d9b4a65af3a961f37",
+      "relocatedSha256": "a0cba6cb780981e0eb8274cbe0cddc90e9ac3ad4241fed991bd841b5f6bbdc35"
+    },
+    {
+      "old": "03-投资应用/L21-教材级习题与详解.md",
+      "new": "课程/L21-VIX期货期权与波动率风险/习题与详解.md",
+      "originalSha256": "8fb509c1a8f64f9f7ac6c2d34809dac765c6dc71a67b03699460dc12e48c9df5",
+      "relocatedSha256": "a15a96b4948ed1ca7dde4e5af1275f2b73e845a13a51cdb5d7d604c09a493e90"
+    },
+    {
+      "old": "图解/L21-VIX现货期货期权与滚动风险.svg",
+      "new": "课程/L21-VIX期货期权与波动率风险/图解.svg",
+      "originalSha256": "d1a32666b593ca32ffc9406a62749e6b65478aff753f4fe6f6863e9711153390",
+      "relocatedSha256": "d1a32666b593ca32ffc9406a62749e6b65478aff753f4fe6f6863e9711153390"
+    },
+    {
+      "old": "03-投资应用/L22-复利与策略优势验证.md",
+      "new": "课程/L22-复利与策略优势验证/讲义.md",
+      "originalSha256": "09b0a3a6d097cbcfb3b61b17c409a78f5b60b3340bed96004f500a2b00d6861e",
+      "relocatedSha256": "2a29630138ee40f8318af0d4eaf66a53739f1f15db897eb4e306d983da2caf69"
+    },
+    {
+      "old": "03-投资应用/L22-教材级习题与详解.md",
+      "new": "课程/L22-复利与策略优势验证/习题与详解.md",
+      "originalSha256": "df84ac002579ab325093cab15d3ab025d01c502c599ef5a2b24b3f5b337a2881",
+      "relocatedSha256": "b38147fc6a0f5e521f9dee37a278245f7c96537bf593ece9de0802af58f7613b"
+    },
+    {
+      "old": "图解/L22-高胜率尾部回撤与复利.svg",
+      "new": "课程/L22-复利与策略优势验证/图解.svg",
+      "originalSha256": "71ef01185b11277fb07f406cac07930c94a6f178bc8ff77a3a3daf798fb34dad",
+      "relocatedSha256": "71ef01185b11277fb07f406cac07930c94a6f178bc8ff77a3a3daf798fb34dad"
+    },
+    {
+      "old": "03-投资应用/L23-六种投资策略综合比较.md",
+      "new": "课程/L23-六种投资策略综合比较/讲义.md",
+      "originalSha256": "fb09aed8e7f53c26320b4ac32b18dac955ab0058d79072e351d813aeb9c1490d",
+      "relocatedSha256": "413e97792d989cea3cdd6702abe143b8acadd7d3d3583790e64897318163b6fa"
+    },
+    {
+      "old": "03-投资应用/L23-教材级习题与详解.md",
+      "new": "课程/L23-六种投资策略综合比较/习题与详解.md",
+      "originalSha256": "52de730c508c6242ed564daedc29953c0fd4036ab36987ccff87f3b3a6acd08b",
+      "relocatedSha256": "8421f26fd0a8d89842f1c49a009e260c0ee2a9aa89820c4970231215f79a9d18"
+    },
+    {
+      "old": "图解/L23-同股六策略同期限比较与风险预算.svg",
+      "new": "课程/L23-六种投资策略综合比较/图解.svg",
+      "originalSha256": "0d360cadcfab63fefdc2311407650b2b5042b379fc67f9a6c0113b5bd47fb4a0",
+      "relocatedSha256": "0d360cadcfab63fefdc2311407650b2b5042b379fc67f9a6c0113b5bd47fb4a0"
+    },
+    {
+      "old": "图解/四种头寸到期损益互动图.html",
+      "new": "课程/L04-四个头寸-收益曲线-风险/互动图.html",
+      "originalSha256": "35633ce5ecb060b89d42ecd1d7d7ab49048c0400e197a954e6cb63bc33d7fe1a",
+      "relocatedSha256": "35633ce5ecb060b89d42ecd1d7d7ab49048c0400e197a954e6cb63bc33d7fe1a"
+    },
+    {
+      "old": "01-基础/练习-第一批.md",
+      "new": "references/练习-第一批.md",
+      "originalSha256": "879adac03bbc6e2458c6f7a44f5ad0694abef8b44974f84ade53bdfea2b036fe",
+      "relocatedSha256": "879adac03bbc6e2458c6f7a44f5ad0694abef8b44974f84ade53bdfea2b036fe"
+    }
+  ]
+}

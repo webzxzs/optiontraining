@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1110" height="830" viewBox="0 0 1110 830" role="img" aria-labelledby="ttl desc">
+<title id="ttl">L04 四种基础期权头寸的独立到期净损益曲线</title>
+<desc id="desc">虚构ABC现价100美元。图分四格：买105Call权利金4，买95Put权利金3，裸卖110Call收2，卖90Put收2。标准一张100股，横轴到期股价0到160，纵轴每张美元到期净损益。四图纵轴刻度彼此不同，不能仅凭曲线高度判断谁赚更多。忽略费用与提前指派。</desc>
+<rect width="1110" height="830" fill="#fff"/>
+<text x="39" y="38" font-family="Microsoft YaHei, sans-serif" font-size="26" font-weight="700" fill="#1e3448">四种头寸：收益结构不对称</text>
+<text x="40" y="66" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#5d7185">虚构ABC｜标准合约100股/张｜忽略费用、融资、分红、提前指派｜各格纵轴范围不同</text>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif"><rect x="38" y="92" rx="13" width="508" height="310" fill="#f7f9fc" stroke="#dae3ed"/>
+<text x="56" y="122" font-size="20" font-weight="700" fill="#183347">买 105 Call · 支付 $4/股</text>
+<text x="56" y="149" font-size="13" fill="#677889">向上有选择权；权利金全损封底</text>
+<text x="100" y="161" font-size="12" fill="#586b7e">每张净损益 / 美元</text>
+<rect x="100" y="174" width="423" height="163" fill="white"/>
+<line x1="100" y1="174" x2="100" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="100" y="357" font-size="12" fill="#66778b" text-anchor="middle">0</text><line x1="285.0625" y1="174" x2="285.0625" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="285.0625" y="357" font-size="12" fill="#66778b" text-anchor="middle">70</text><line x1="364.375" y1="174" x2="364.375" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="364.375" y="357" font-size="12" fill="#66778b" text-anchor="middle">100</text><line x1="417.25" y1="174" x2="417.25" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="417.25" y="357" font-size="12" fill="#66778b" text-anchor="middle">120</text><line x1="496.5625" y1="174" x2="496.5625" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="496.5625" y="357" font-size="12" fill="#66778b" text-anchor="middle">150</text>
+<line x1="100" y1="321.93277310924367" x2="523" y2="321.93277310924367" stroke="#8c9aab" stroke-width="2"/>
+<text x="94" y="325.93277310924367" text-anchor="end" font-size="12" fill="#677889">0</text>
+<path d="M100.00,332.89 L377.59,332.89 L523.00,182.22" fill="none" stroke="#147d82" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="377.59375" y1="174" x2="377.59375" y2="337" stroke="#7795b1" stroke-dasharray="4 5" stroke-width="1.6"/>
+<circle cx="388.16875" cy="321.93277310924367" r="5.5" fill="#147d82" stroke="#fff" stroke-width="2"/>
+
+<text x="56" y="384" font-size="14" font-weight="600" fill="#43576c">行权价 K=105   ·   到期BE=109   ·   ST=70时：−$400</text>
+</g>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif"><rect x="568" y="92" rx="13" width="508" height="310" fill="#f7f9fc" stroke="#dae3ed"/>
+<text x="586" y="122" font-size="20" font-weight="700" fill="#183347">买 95 Put · 支付 $3/股</text>
+<text x="586" y="149" font-size="13" fill="#677889">股价跌至 0 时盈利有上限</text>
+<text x="630" y="161" font-size="12" fill="#586b7e">每张净损益 / 美元</text>
+<rect x="630" y="174" width="423" height="163" fill="white"/>
+<line x1="630" y1="174" x2="630" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="630" y="357" font-size="12" fill="#66778b" text-anchor="middle">0</text><line x1="815.0625" y1="174" x2="815.0625" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="815.0625" y="357" font-size="12" fill="#66778b" text-anchor="middle">70</text><line x1="894.375" y1="174" x2="894.375" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="894.375" y="357" font-size="12" fill="#66778b" text-anchor="middle">100</text><line x1="947.25" y1="174" x2="947.25" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="947.25" y="357" font-size="12" fill="#66778b" text-anchor="middle">120</text><line x1="1026.5625" y1="174" x2="1026.5625" y2="337" stroke="#e8eef4" stroke-width="1"/><text x="1026.5625" y="357" font-size="12" fill="#66778b" text-anchor="middle">150</text>
+<line x1="630" y1="327.05164319248826" x2="1053" y2="327.05164319248826" stroke="#8c9aab" stroke-width="2"/>
+<text x="624" y="331.05164319248826" text-anchor="end" font-size="12" fill="#677889">0</text>
+<path d="M630.00,186.24 L881.16,331.64 L1053.00,331.64" fill="none" stroke="#3669b5" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="881.15625" y1="174" x2="881.15625" y2="337" stroke="#7795b1" stroke-dasharray="4 5" stroke-width="1.6"/>
+<circle cx="873.225" cy="327.05164319248826" r="5.5" fill="#3669b5" stroke="#fff" stroke-width="2"/>
+
+<text x="586" y="384" font-size="14" font-weight="600" fill="#43576c">行权价 K=95   ·   到期BE=92   ·   ST=70时：+$2,200</text>
+</g>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif"><rect x="38" y="427" rx="13" width="508" height="310" fill="#f7f9fc" stroke="#dae3ed"/>
+<text x="56" y="457" font-size="20" font-weight="700" fill="#183347">裸卖 110 Call · 收 $2/股</text>
+<text x="56" y="484" font-size="13" fill="#677889">股价上行时亏损理论无上限</text>
+<text x="100" y="496" font-size="12" fill="#586b7e">每张净损益 / 美元</text>
+<rect x="100" y="509" width="423" height="163" fill="white"/>
+<line x1="100" y1="509" x2="100" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="100" y="692" font-size="12" fill="#66778b" text-anchor="middle">0</text><line x1="285.0625" y1="509" x2="285.0625" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="285.0625" y="692" font-size="12" fill="#66778b" text-anchor="middle">70</text><line x1="364.375" y1="509" x2="364.375" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="364.375" y="692" font-size="12" fill="#66778b" text-anchor="middle">100</text><line x1="417.25" y1="509" x2="417.25" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="417.25" y="692" font-size="12" fill="#66778b" text-anchor="middle">120</text><line x1="496.5625" y1="509" x2="496.5625" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="496.5625" y="692" font-size="12" fill="#66778b" text-anchor="middle">150</text>
+<line x1="100" y1="527.7522123893805" x2="523" y2="527.7522123893805" stroke="#8c9aab" stroke-width="2"/>
+<text x="94" y="531.7522123893805" text-anchor="end" font-size="12" fill="#677889">0</text>
+<path d="M100.00,521.98 L390.81,521.98 L523.00,666.23" fill="none" stroke="#c76631" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="390.8125" y1="509" x2="390.8125" y2="672" stroke="#7795b1" stroke-dasharray="4 5" stroke-width="1.6"/>
+<circle cx="396.09999999999997" cy="527.7522123893805" r="5.5" fill="#c76631" stroke="#fff" stroke-width="2"/>
+
+<text x="56" y="719" font-size="14" font-weight="600" fill="#43576c">行权价 K=110   ·   到期BE=112   ·   ST=70时：+$200</text>
+</g>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif"><rect x="568" y="427" rx="13" width="508" height="310" fill="#f7f9fc" stroke="#dae3ed"/>
+<text x="586" y="457" font-size="20" font-weight="700" fill="#183347">卖 90 Put · 收 $2/股</text>
+<text x="586" y="484" font-size="13" fill="#677889">有限收款，承担下跌接股义务</text>
+<text x="630" y="496" font-size="12" fill="#586b7e">每张净损益 / 美元</text>
+<rect x="630" y="509" width="423" height="163" fill="white"/>
+<line x1="630" y1="509" x2="630" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="630" y="692" font-size="12" fill="#66778b" text-anchor="middle">0</text><line x1="815.0625" y1="509" x2="815.0625" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="815.0625" y="692" font-size="12" fill="#66778b" text-anchor="middle">70</text><line x1="894.375" y1="509" x2="894.375" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="894.375" y="692" font-size="12" fill="#66778b" text-anchor="middle">100</text><line x1="947.25" y1="509" x2="947.25" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="947.25" y="692" font-size="12" fill="#66778b" text-anchor="middle">120</text><line x1="1026.5625" y1="509" x2="1026.5625" y2="672" stroke="#e8eef4" stroke-width="1"/><text x="1026.5625" y="692" font-size="12" fill="#66778b" text-anchor="middle">150</text>
+<line x1="630" y1="521.0443349753695" x2="1053" y2="521.0443349753695" stroke="#8c9aab" stroke-width="2"/>
+<text x="624" y="525.0443349753695" text-anchor="end" font-size="12" fill="#677889">0</text>
+<path d="M630.00,662.36 L867.94,517.83 L1053.00,517.83" fill="none" stroke="#a83f6b" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="867.9375" y1="509" x2="867.9375" y2="672" stroke="#7795b1" stroke-dasharray="4 5" stroke-width="1.6"/>
+<circle cx="862.65" cy="521.0443349753695" r="5.5" fill="#a83f6b" stroke="#fff" stroke-width="2"/>
+
+<text x="586" y="719" font-size="14" font-weight="600" fill="#43576c">行权价 K=90   ·   到期BE=88   ·   ST=70时：−$1,800</text>
+</g>
+<text x="40" y="789" font-family="Microsoft YaHei, sans-serif" font-size="15" fill="#526579">读图：横轴是到期股票价格；纵轴是期权腿到期净损益。到期前价格变化与履约资金需求不能从本图推断。</text>
+<text x="40" y="814" font-family="Microsoft YaHei, sans-serif" font-size="13" fill="#7b8996">教学图示：不同K与权利金是独立假设，不代表同一真实市场盘口或可套利组合。</text>
+</svg>

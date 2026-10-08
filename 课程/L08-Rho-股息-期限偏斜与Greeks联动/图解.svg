@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="800" viewBox="0 0 1100 800" role="img" aria-labelledby="title desc">
+<title id="title">L08 从期限总方差到做市商Gamma对冲方向</title>
+<desc id="desc">虚构固定可比IV切片：30日年化IV50%，90日年化IV32%，总隐含方差w=IV平方乘天数除365，分别0.02055和0.02525。差分所得30日到90日前向年化波动率约16.91%。下半部分是条件性净Gamma对冲：做市商净负Gamma时涨价后为了Delta中性需买股票、跌价后卖股票；净正Gamma时方向反过来。所有数据是教学输入，非真实交易信号。</desc>
+<rect width="1100" height="800" rx="16" fill="#fff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="44" y="45" font-size="27" font-weight="700" fill="#173147">期限总方差、前向波动与净Gamma的对冲反馈</text>
+<text x="44" y="76" font-size="15" fill="#546f82">两幅图都是教学示意：一幅来自显式方差公式，另一幅来自假设做市商有特定净Gamma。</text>
+<text x="70" y="125" font-size="20" font-weight="700" fill="#243f55">① 不能直接把30天IV 50%减90天IV 32%当作收益</text>
+<text x="70" y="154" font-size="16" fill="#536e81">总隐含方差 w(T)=IV²×T；T按年（d/365），不是未来实际RV</text>
+<rect x="112" y="170" width="876" height="160" fill="#f7f9fc" rx="8"/>
+<line x1="112" y1="330" x2="988" y2="330" stroke="#98aab8" stroke-width="2"/>
+<rect x="205" y="203.29" width="150" height="126.71" rx="5" fill="#a47ad3"/><text x="280" y="187.29" text-anchor="middle" font-size="22" font-weight="700" fill="#7655a2">w=0.02055</text><text x="280" y="362" text-anchor="middle" font-size="19" fill="#294457">30天 · IV 50%</text><rect x="735" y="174.30" width="150" height="155.70" rx="5" fill="#307b9c"/><text x="810" y="158.30" text-anchor="middle" font-size="22" font-weight="700" fill="#246d8c">w=0.02525</text><text x="810" y="362" text-anchor="middle" font-size="19" fill="#294457">90天 · IV 32%</text>
+<rect x="250" y="377" width="600" height="66" fill="#eef4f8" rx="12"/>
+<text x="550" y="406" font-size="21" font-weight="700" fill="#1e667c" text-anchor="middle">30→90日前向IV ≈ 16.91% / 年</text>
+<text x="550" y="429" font-size="13" fill="#5b7181" text-anchor="middle">模型总方差差分；不是实际未来波动率或可直接交易的价差</text>
+<line x1="44" y1="478" x2="1050" y2="478" stroke="#e0e7ef" stroke-width="2"/>
+<text x="70" y="518" font-size="20" font-weight="700" fill="#243f55">② 做市商库存的净Gamma符号，决定再对冲的典型方向</text>
+<rect x="72" y="549" width="455" height="151" rx="12" fill="#fff4ef" stroke="#e2baa8"/>
+<text x="299" y="580" text-anchor="middle" font-size="20" font-weight="700" fill="#ac5938">假设做市商净负Gamma</text>
+<text x="299" y="619" text-anchor="middle" font-size="17" fill="#8a543b">股票上涨 ↑ → 需要买入股票 ↑</text>
+<text x="299" y="654" text-anchor="middle" font-size="17" fill="#8a543b">股票下跌 ↓ → 需要卖出股票 ↓</text>
+<text x="299" y="681" text-anchor="middle" font-size="13" fill="#906b5a">可能放大价格波动；仍取决于库存规模和流动性</text>
+<rect x="562" y="549" width="455" height="151" rx="12" fill="#eef8f7" stroke="#b9dbd4"/>
+<text x="789" y="580" text-anchor="middle" font-size="20" font-weight="700" fill="#257d75">假设做市商净正Gamma</text>
+<text x="789" y="619" text-anchor="middle" font-size="17" fill="#35675f">股票上涨 ↑ → 需要卖出股票 ↓</text>
+<text x="789" y="654" text-anchor="middle" font-size="17" fill="#35675f">股票下跌 ↓ → 需要买入股票 ↑</text>
+<text x="789" y="681" text-anchor="middle" font-size="13" fill="#5a7b73">可能缓和波动；不是市场一定如此运行的承诺</text>
+<text x="72" y="744" font-size="14" fill="#536c81">数量案例：净空300张Call、每股Gamma+0.02、乘数100 → 仓位Gamma −600股/$；股票涨$2，理论再买1,200股。</text>
+<text x="72" y="775" font-size="13" fill="#647d91">真实做市商净Gamma不能从成交量或未平仓量直接识别；模型前提、股息、报价、资金与跳空均会改变结果。</text>
+</g>
+</svg>

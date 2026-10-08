@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1020" viewBox="0 0 1240 1020" role="img" aria-labelledby="title desc">
+<title id="title">L15近月到期时Calendar与Diagonal的现金损益及远月仍有60天的Call报价</title>
+<desc id="desc">虚构ABC现价100，30天短腿到期、90天远腿到期；长90天C100买Ask7.30，Calendar卖30天C100 Bid3.30成本400美元，Diagonal卖30天C105 Bid1.70成本560美元。短腿在第30天按内在结清，长腿仍有60天期限以假设Bid卖出。图上半部八态股价70,85,95,100,105,110,120,140，对应Calendar净利润-385,-320,-90,100,-90,-150,-200,-220美元；Diagonal-545,-480,-250,-60,250,190,140,120美元。下半部Long Call卖出Bid0.15,0.8,3.1,5,8.1,12.5,22,41.8（每股）及近月K100内在价值0,0,0,0,5,10,20,40。此为短腿到期日虚构市场快照，不是两腿在90天同到期的曲线；剩余60天远月IV、Bid/Ask会改变利润，指派需单独结算。</desc>
+<rect x="0" y="0" width="1240" height="1020" rx="18" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="49" y="48" font-size="28" font-weight="700" fill="#1c3c51">跨期价差：短腿第30天到期，长腿却仍有60天</text>
+<text x="49" y="78" font-size="15" fill="#55778b">教学ABC股价$100 · 标准100股/张 · 远C100/T90买Ask7.30 · 近C100/T30卖Bid3.30 或 C105/T30卖Bid1.70</text>
+<text x="48" y="120" font-size="18" font-weight="600" fill="#263f56">一、短腿到期当天两腿经济结清的每组美元P/L</text>
+<line x1="52" y1="158" x2="99" y2="158" stroke="#267e9d" stroke-width="4"/><text x="111" y="164" font-size="16" fill="#31536d">Calendar 同K（初始付$400）</text>
+<line x1="517" y1="158" x2="564" y2="158" stroke="#a363ba" stroke-width="4"/><text x="575" y="164" font-size="16" fill="#31536d">Diagonal 不同K（初始付$560）</text>
+<rect x="175" y="215" width="900" height="355" rx="5" fill="#fbfcfe"/>
+<line x1="175.0" y1="215" x2="175.0" y2="859" stroke="#e9eff4"/><text x="175.0" y="888" text-anchor="middle" font-size="15" fill="#586f81">70</text>
+<line x1="367.9" y1="215" x2="367.9" y2="859" stroke="#e9eff4"/><text x="367.9" y="888" text-anchor="middle" font-size="15" fill="#586f81">85</text>
+<line x1="496.4" y1="215" x2="496.4" y2="859" stroke="#e9eff4"/><text x="496.4" y="888" text-anchor="middle" font-size="15" fill="#586f81">95</text>
+<line x1="560.7" y1="215" x2="560.7" y2="859" stroke="#e9eff4"/><text x="560.7" y="888" text-anchor="middle" font-size="15" fill="#586f81">100</text>
+<line x1="625.0" y1="215" x2="625.0" y2="859" stroke="#e9eff4"/><text x="625.0" y="888" text-anchor="middle" font-size="15" fill="#586f81">105</text>
+<line x1="689.3" y1="215" x2="689.3" y2="859" stroke="#e9eff4"/><text x="689.3" y="888" text-anchor="middle" font-size="15" fill="#586f81">110</text>
+<line x1="817.9" y1="215" x2="817.9" y2="859" stroke="#e9eff4"/><text x="817.9" y="888" text-anchor="middle" font-size="15" fill="#586f81">120</text>
+<line x1="1075.0" y1="215" x2="1075.0" y2="859" stroke="#e9eff4"/><text x="1075.0" y="888" text-anchor="middle" font-size="15" fill="#586f81">140</text>
+<line x1="175" y1="570.0" x2="1075" y2="570.0" stroke="#e5edf4" stroke-width="1"/><text x="160" y="575.0" text-anchor="end" font-size="14" fill="#587184">−600</text>
+<line x1="175" y1="499.0" x2="1075" y2="499.0" stroke="#e5edf4" stroke-width="1"/><text x="160" y="504.0" text-anchor="end" font-size="14" fill="#587184">−400</text>
+<line x1="175" y1="428.0" x2="1075" y2="428.0" stroke="#e5edf4" stroke-width="1"/><text x="160" y="433.0" text-anchor="end" font-size="14" fill="#587184">−200</text>
+<line x1="175" y1="357.0" x2="1075" y2="357.0" stroke="#8aa5b3" stroke-width="2"/><text x="160" y="362.0" text-anchor="end" font-size="14" fill="#587184">0</text>
+<line x1="175" y1="286.0" x2="1075" y2="286.0" stroke="#e5edf4" stroke-width="1"/><text x="160" y="291.0" text-anchor="end" font-size="14" fill="#587184">+200</text>
+<line x1="175" y1="215.0" x2="1075" y2="215.0" stroke="#e5edf4" stroke-width="1"/><text x="160" y="220.0" text-anchor="end" font-size="14" fill="#587184">+400</text>
+<path d="M175.0,493.7 L367.9,470.6 L496.4,388.9 L560.7,321.5 L625.0,388.9 L689.3,410.3 L817.9,428.0 L1075.0,435.1" fill="none" stroke="#267e9d" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M175.0,550.5 L367.9,527.4 L496.4,445.8 L560.7,378.3 L625.0,268.3 L689.3,289.6 L817.9,307.3 L1075.0,314.4" fill="none" stroke="#a363ba" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="175.0" cy="493.7" r="4" fill="#267e9d"/><circle cx="367.9" cy="470.6" r="4" fill="#267e9d"/><circle cx="496.4" cy="388.9" r="4" fill="#267e9d"/><circle cx="560.7" cy="321.5" r="4" fill="#267e9d"/><circle cx="625.0" cy="388.9" r="4" fill="#267e9d"/><circle cx="689.3" cy="410.3" r="4" fill="#267e9d"/><circle cx="817.9" cy="428.0" r="4" fill="#267e9d"/><circle cx="1075.0" cy="435.1" r="4" fill="#267e9d"/>
+<circle cx="175.0" cy="550.5" r="4" fill="#a363ba"/><circle cx="367.9" cy="527.4" r="4" fill="#a363ba"/><circle cx="496.4" cy="445.8" r="4" fill="#a363ba"/><circle cx="560.7" cy="378.3" r="4" fill="#a363ba"/><circle cx="625.0" cy="268.3" r="4" fill="#a363ba"/><circle cx="689.3" cy="289.6" r="4" fill="#a363ba"/><circle cx="817.9" cy="307.3" r="4" fill="#a363ba"/><circle cx="1075.0" cy="314.4" r="4" fill="#a363ba"/>
+<text x="567.7" y="309.5" fill="#267e9d" font-size="14" font-weight="600">Cal +$100</text>
+<text x="632.0" y="255.3" fill="#a363ba" font-size="14" font-weight="600">Diag +$250</text>
+<text x="48" y="614" font-size="18" font-weight="600" fill="#263f56">二、远月C100在第30天仍有60天：其可卖Bid与内在价值（每股美元）</text>
+<rect x="175" y="639" width="900" height="220" rx="5" fill="#fbfcfe"/>
+<line x1="52" y1="647" x2="99" y2="647" stroke="#287f61" stroke-width="4"/><text x="111" y="653" font-size="16" fill="#31536d">远月长Call真实假设Bid（包含剩余时间价值）</text>
+<line x1="644" y1="647" x2="691" y2="647" stroke="#c98434" stroke-width="3" stroke-dasharray="8 5"/><text x="703" y="653" font-size="16" fill="#31536d">K100近月Call到期内在价值</text>
+<line x1="175" y1="859.0" x2="1075" y2="859.0" stroke="#e5edf4"/><text x="160" y="864.0" text-anchor="end" font-size="13" fill="#587184">0</text>
+<line x1="175" y1="810.1" x2="1075" y2="810.1" stroke="#e5edf4"/><text x="160" y="815.1" text-anchor="end" font-size="13" fill="#587184">10</text>
+<line x1="175" y1="761.2" x2="1075" y2="761.2" stroke="#e5edf4"/><text x="160" y="766.2" text-anchor="end" font-size="13" fill="#587184">20</text>
+<line x1="175" y1="712.3" x2="1075" y2="712.3" stroke="#e5edf4"/><text x="160" y="717.3" text-anchor="end" font-size="13" fill="#587184">30</text>
+<line x1="175" y1="663.4" x2="1075" y2="663.4" stroke="#e5edf4"/><text x="160" y="668.4" text-anchor="end" font-size="13" fill="#587184">40</text>
+<path d="M175.0,858.3 L367.9,855.1 L496.4,843.8 L560.7,834.6 L625.0,819.4 L689.3,797.9 L817.9,751.4 L1075.0,654.6" stroke="#287f61" stroke-width="4" fill="none" stroke-linejoin="round"/>
+<path d="M175.0,859.0 L367.9,859.0 L496.4,859.0 L560.7,859.0 L625.0,834.6 L689.3,810.1 L817.9,761.2 L1075.0,663.4" stroke="#c98434" stroke-width="3" fill="none" stroke-dasharray="8 5" stroke-linejoin="round"/>
+<text x="625" y="920" text-anchor="middle" font-size="17" fill="#3f657b">ABC第30天股价（美元）；不是第90天股价</text>
+<text x="48" y="955" font-size="14" fill="#547387">上图：Calendar=100×(远Call Bid−短C100内在−4.00)；Diagonal=100×(远Call Bid−短C105内在−5.60)。</text>
+<text x="48" y="977" font-size="14" fill="#547387">这是第30天假设Bid与短腿经济支付的示意，不是长短腿在同一最终到期日的固定支付函数。</text>
+<text x="48" y="999" font-size="13" fill="#647d91">IV和剩余时间价值变动会改变两条利润线；提前被指派、融资、股息、真实报价深度需单独审计。</text>
+</g></svg>

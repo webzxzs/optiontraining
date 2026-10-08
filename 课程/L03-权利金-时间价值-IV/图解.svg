@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="730" viewBox="0 0 1000 730" role="img" aria-labelledby="ttl desc">
+<title id="ttl">L03 期权权利金拆分与隐含波动率Rank、Percentile的差异</title>
+<desc id="desc">股价100美元。95Call权利金9=内在5+外在4；105Call权利金4=0+4；105Put权利金8=5+3；95Put权利金3=0+3。另一教学序列10、11、12、13、14、15、16、17、20、60，现值20，IV Rank20%，严格低于现值的历史占比IV Percentile80%。</desc>
+<rect width="1000" height="730" rx="16" fill="#fcfdff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="48" y="48" font-size="27" fill="#162d41" font-weight="700">价格拆分：有内在价值 ≠ 持仓已盈利</text>
+<text x="48" y="78" font-size="16" fill="#587085">教学假设：股价 ABC = $100，期权“买入价”按每股美元，非真实期权链</text>
+<rect x="48" y="101" width="904" height="370" rx="12" fill="#f4f7fa"/>
+<text x="58" y="131" font-size="16" fill="#3a566a">每张合约金额再乘100。条形长度表示每股买入权利金。</text>
+<rect x="686" y="112" width="17" height="13" rx="2" fill="#3675b9"/><text x="712" y="124" font-size="14" fill="#3a566a">内在价值</text>
+<rect x="812" y="112" width="17" height="13" rx="2" fill="#30a18a"/><text x="837" y="124" font-size="14" fill="#3a566a">外在价值</text>
+<text x="58" y="169" fill="#34495c" font-size="18" font-weight="600">95 Call</text><rect x="266" y="146" width="477" height="36" rx="3" fill="#eeeef3"/><rect x="266" y="146" width="265" height="36" fill="#3675b9"/><rect x="531" y="146" width="212" height="36" fill="#30a18a"/><text x="755" y="170" fill="#1d3043" font-size="17" font-weight="700">$9</text><text x="58" y="248" fill="#34495c" font-size="18" font-weight="600">105 Call</text><rect x="266" y="225" width="212" height="36" rx="3" fill="#eeeef3"/><rect x="266" y="225" width="0" height="36" fill="#3675b9"/><rect x="266" y="225" width="212" height="36" fill="#30a18a"/><text x="490" y="249" fill="#1d3043" font-size="17" font-weight="700">$4</text><text x="58" y="327" fill="#34495c" font-size="18" font-weight="600">105 Put</text><rect x="266" y="304" width="424" height="36" rx="3" fill="#eeeef3"/><rect x="266" y="304" width="265" height="36" fill="#3675b9"/><rect x="531" y="304" width="159" height="36" fill="#30a18a"/><text x="702" y="328" fill="#1d3043" font-size="17" font-weight="700">$8</text><text x="58" y="406" fill="#34495c" font-size="18" font-weight="600">95 Put</text><rect x="266" y="383" width="159" height="36" rx="3" fill="#eeeef3"/><rect x="266" y="383" width="0" height="36" fill="#3675b9"/><rect x="266" y="383" width="159" height="36" fill="#30a18a"/><text x="437" y="407" fill="#1d3043" font-size="17" font-weight="700">$3</text>
+<text x="49" y="502" font-size="24" font-weight="700" fill="#162d41">同样 IV 20%，历史指标可能相差四倍</text>
+<text x="49" y="530" font-size="16" fill="#53697d">10日教学序列：10、11、12、13、14、15、16、17、20、60（%）；当前值=20%</text>
+<text x="49" y="576" font-size="18" fill="#30485b">IV Rank</text>
+<rect x="254" y="550" width="580" height="36" rx="6" fill="#e6ebf0"/><rect x="254" y="550" width="116" height="36" rx="6" fill="#3675b9"/>
+<text x="851" y="575" font-size="23" font-weight="700" fill="#3675b9">20%</text>
+<text x="49" y="628" font-size="18" fill="#30485b">IV Percentile</text>
+<rect x="254" y="603" width="580" height="36" rx="6" fill="#e6ebf0"/><rect x="254" y="603" width="464" height="36" rx="6" fill="#30a18a"/>
+<text x="851" y="628" font-size="23" font-weight="700" fill="#16866f">80%</text>
+<text x="49" y="676" font-size="16" fill="#53697d">Rank = (20−10)/(60−10)；Percentile = 8/10（严格低于当前值）</text>
+<text x="49" y="705" font-size="13" fill="#6b7d90">注意：不同数据商的回看窗口、相等值口径和常期限IV计算可能不同。图中没有期权市价预测。</text>
+</g>
+</svg>

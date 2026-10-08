@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="680" viewBox="0 0 1000 680" role="img" aria-labelledby="ttl desc">
+  <title id="ttl">ABC：持有100股、买105 Call、卖95 Put的到期净收益比较</title>
+  <desc id="desc">假设ABC现价100，合约乘数100，Call行权价105买价4，卖出Put行权价95收款3。横轴到期股价60至150，纵轴美元盈亏。到期108时，持有100股盈利800，买Call亏100，卖Put盈利300。无交易费与提前指派，三者资金占用不同。</desc>
+  <rect x="0" y="0" width="1000" height="680" rx="14" fill="#fff"/>
+  <text x="48" y="30" fill="#152b3f" font-size="24" font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif" font-weight="700">同一标的，不同权利与义务</text>
+  <rect x="108" y="56" width="816" height="467" fill="#fbfcfe" stroke="#d9e2eb"/>
+  <g font-family="Segoe UI, Microsoft YaHei, sans-serif"><line x1="108.00" x2="108.00" y1="56" y2="523" stroke="#f2f5f9"/><text x="108.00" y="549" font-size="12" fill="#536170" text-anchor="middle">60</text><line x1="198.67" x2="198.67" y1="56" y2="523" stroke="#f2f5f9"/><text x="198.67" y="549" font-size="12" fill="#536170" text-anchor="middle">70</text><line x1="289.33" x2="289.33" y1="56" y2="523" stroke="#f2f5f9"/><text x="289.33" y="549" font-size="12" fill="#536170" text-anchor="middle">80</text><line x1="380.00" x2="380.00" y1="56" y2="523" stroke="#f2f5f9"/><text x="380.00" y="549" font-size="12" fill="#536170" text-anchor="middle">90</text><line x1="425.33" x2="425.33" y1="56" y2="523" stroke="#e1e7ee"/><text x="425.33" y="549" font-size="12" fill="#536170" text-anchor="middle">95</text><line x1="470.67" x2="470.67" y1="56" y2="523" stroke="#e1e7ee"/><text x="470.67" y="549" font-size="12" fill="#536170" text-anchor="middle">100</text><line x1="516.00" x2="516.00" y1="56" y2="523" stroke="#e1e7ee"/><text x="516.00" y="549" font-size="12" fill="#536170" text-anchor="middle">105</text><line x1="543.20" x2="543.20" y1="56" y2="523" stroke="#e1e7ee"/><line x1="552.27" x2="552.27" y1="56" y2="523" stroke="#e1e7ee"/><text x="552.27" y="549" font-size="12" fill="#536170" text-anchor="middle">109</text><line x1="652.00" x2="652.00" y1="56" y2="523" stroke="#f2f5f9"/><text x="652.00" y="549" font-size="12" fill="#536170" text-anchor="middle">120</text><line x1="742.67" x2="742.67" y1="56" y2="523" stroke="#f2f5f9"/><text x="742.67" y="549" font-size="12" fill="#536170" text-anchor="middle">130</text><line x1="833.33" x2="833.33" y1="56" y2="523" stroke="#f2f5f9"/><text x="833.33" y="549" font-size="12" fill="#536170" text-anchor="middle">140</text><line x1="924.00" x2="924.00" y1="56" y2="523" stroke="#f2f5f9"/><text x="924.00" y="549" font-size="12" fill="#536170" text-anchor="middle">150</text><line x1="108" x2="924" y1="500.76" y2="500.76" stroke="#e9eef4" stroke-width="1"/><text x="94" y="505.76" font-size="14" fill="#596b79" text-anchor="end">-4,000</text><line x1="108" x2="924" y1="411.81" y2="411.81" stroke="#e9eef4" stroke-width="1"/><text x="94" y="416.81" font-size="14" fill="#596b79" text-anchor="end">-2,000</text><line x1="108" x2="924" y1="322.86" y2="322.86" stroke="#667b8e" stroke-width="2"/><text x="94" y="327.86" font-size="14" fill="#596b79" text-anchor="end">0</text><line x1="108" x2="924" y1="233.90" y2="233.90" stroke="#e9eef4" stroke-width="1"/><text x="94" y="238.90" font-size="14" fill="#596b79" text-anchor="end">2,000</text><line x1="108" x2="924" y1="144.95" y2="144.95" stroke="#e9eef4" stroke-width="1"/><text x="94" y="149.95" font-size="14" fill="#596b79" text-anchor="end">4,000</text><line x1="108" x2="924" y1="56.00" y2="56.00" stroke="#e9eef4" stroke-width="1"/><text x="94" y="61.00" font-size="14" fill="#596b79" text-anchor="end">6,000</text></g>
+  <text x="27" y="49" font-size="13" fill="#44566c" font-family="Microsoft YaHei, sans-serif">盈亏/美元</text>
+  <text x="516" y="578" font-size="16" fill="#44566c" text-anchor="middle" font-family="Microsoft YaHei, sans-serif">到期股价 ST（美元/股）</text>
+  <line x1="543.2" y1="56" x2="543.2" y2="523" stroke="#896fb5" stroke-dasharray="6 7" stroke-width="2"/>
+  <text x="550.2" y="72" font-size="15" fill="#76569c" font-weight="700">ST = 108</text>
+  <path d="M108.00,500.76 L924.00,100.48" fill="none" stroke="#2c73ad" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M108.00,340.65 L516.00,340.65 L924.00,140.50" fill="none" stroke="#1f977a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M108.00,465.18 L425.33,309.51 L924.00,309.51" fill="none" stroke="#cb6a37" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="543.20" cy="287.28" r="6.5" fill="#2c73ad" stroke="#fff" stroke-width="2"/><circle cx="543.20" cy="327.30" r="6.5" fill="#1f977a" stroke="#fff" stroke-width="2"/><circle cx="543.20" cy="309.51" r="6.5" fill="#cb6a37" stroke="#fff" stroke-width="2"/>
+  <g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+    <rect x="108" y="593" rx="11" width="816" height="64" fill="#f0f4f9"/>
+    <rect x="120" y="608" width="22" height="5" rx="2" fill="#2c73ad"/>
+    <text x="149" y="618" font-size="14" fill="#22374d">100股正股</text>
+    <text x="150" y="639" font-size="17" font-weight="700" fill="#2c73ad">ST=108: +$800</text>
+    <rect x="378" y="608" width="22" height="5" rx="2" fill="#1f977a"/>
+    <text x="408" y="618" font-size="14" fill="#22374d">买105 Call</text>
+    <text x="409" y="639" font-size="17" font-weight="700" fill="#1f977a">ST=108: −$100</text>
+    <rect x="658" y="608" width="22" height="5" rx="2" fill="#cb6a37"/>
+    <text x="687" y="618" font-size="14" fill="#22374d">卖95 Put</text>
+    <text x="688" y="639" font-size="17" font-weight="700" fill="#cb6a37">ST=108: +$300</text>
+    <text x="115" y="575" font-size="13" fill="#667686">到期经济损益；未含费用、融资、股息、提前指派。曲线未按风险预算/Delta/资金占用等效。</text>
+  </g>
+</svg>

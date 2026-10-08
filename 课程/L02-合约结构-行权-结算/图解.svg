@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="800" viewBox="0 0 1120 800" role="img" aria-labelledby="ttl desc">
+<title id="ttl">L02｜期权开仓、平仓、行权与指派流程</title>
+<desc id="desc">从期权建仓区分多头与空头。期权多头可通过卖出平仓退出，亦可继续持有并按规定行权或到期失效。美式空头可买入平仓退出；持有期间可能被指派，产生交付股票或购买股票的义务。美国OCC标准期权适用到期默认行权及相反指示规定。流程简化，非具体券商操作指南。</desc>
+<defs>
+ <marker id="arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto" markerUnits="strokeWidth"><path d="M1 1 L10 6 L1 11 Z" fill="#587487"/></marker>
+</defs>
+<rect width="1120" height="800" fill="#f7f9fc"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="45" y="49" font-size="27" font-weight="700" fill="#172d42">期权生命周期：交易结束 ≠ 行权交割</text>
+<text x="45" y="78" font-size="15" fill="#536678">美股 OCC 标准合约的教学示意；准确处理以该品种与券商规则为准</text>
+
+<rect x="38" y="108" width="1044" height="306" rx="18" fill="#e9f2fc" stroke="#c9ddf3"/>
+<text x="56" y="137" font-size="20" font-weight="700" fill="#1d5e9b">期权多头：你拥有权利</text>
+
+<rect x="68" y="175" width="212" height="83" rx="12" fill="#fff" stroke="#87b2dd" stroke-width="2"/>
+<text x="174" y="206" font-size="18" fill="#204f7e" text-anchor="middle" font-weight="700">Buy to Open</text>
+<text x="174" y="232" font-size="15" fill="#3c627f" text-anchor="middle">付费，建立多头</text>
+
+<rect x="346" y="167" width="223" height="88" rx="12" fill="#fff" stroke="#83bba7" stroke-width="2"/>
+<text x="458" y="196" font-size="18" fill="#1f745c" text-anchor="middle" font-weight="700">Sell to Close</text>
+<text x="458" y="221" font-size="15" fill="#3c665b" text-anchor="middle">按期权成交价退出</text>
+<text x="458" y="240" font-size="14" fill="#3c665b" text-anchor="middle">不直接交割股票</text>
+<path d="M280 198 L346 198" fill="none" stroke="#587487" stroke-width="2.6" marker-end="url(#arrow)"/>
+
+<rect x="345" y="294" width="223" height="80" rx="12" fill="#fff" stroke="#7aa7d3" stroke-width="2"/>
+<text x="456" y="321" font-size="17" fill="#204f7e" text-anchor="middle" font-weight="700">继续持有合约</text>
+<text x="456" y="347" font-size="14" fill="#3c627f" text-anchor="middle">直到行权 / 到期处理</text>
+<path d="M174 258 L174 334 L345 334" fill="none" stroke="#587487" stroke-width="2.6" marker-end="url(#arrow)"/>
+
+<rect x="643" y="287" width="394" height="99" rx="12" fill="#fff" stroke="#7aa7d3" stroke-width="2"/>
+<text x="840" y="311" font-size="18" fill="#204f7e" text-anchor="middle" font-weight="700">Exercise / Expiration</text>
+<text x="840" y="337" font-size="14" fill="#3c627f" text-anchor="middle">美式可按规则提前行权；欧式通常仅到期</text>
+<text x="840" y="358" font-size="14" fill="#3c627f" text-anchor="middle">价内默认处理 ≠ 不可提交相反指示</text>
+<path d="M568 334 L643 334" fill="none" stroke="#587487" stroke-width="2.6" marker-end="url(#arrow)"/>
+
+<rect x="38" y="440" width="1044" height="286" rx="18" fill="#fff0e9" stroke="#e9cdbd"/>
+<text x="56" y="470" font-size="20" font-weight="700" fill="#ad5130">期权空头：你承担潜在履约义务</text>
+
+<rect x="68" y="507" width="212" height="83" rx="12" fill="#fff" stroke="#dfa58b" stroke-width="2"/>
+<text x="174" y="539" font-size="18" fill="#a14f31" text-anchor="middle" font-weight="700">Sell to Open</text>
+<text x="174" y="565" font-size="15" fill="#8f553d" text-anchor="middle">收款，建立空头</text>
+
+<rect x="346" y="497" width="223" height="91" rx="12" fill="#fff" stroke="#83bba7" stroke-width="2"/>
+<text x="457" y="528" font-size="18" fill="#1f745c" text-anchor="middle" font-weight="700">Buy to Close</text>
+<text x="457" y="553" font-size="15" fill="#3c665b" text-anchor="middle">完成平仓，空头归零</text>
+<text x="457" y="573" font-size="13" fill="#3c665b" text-anchor="middle">未成交的限价单不算</text>
+<path d="M280 531 L346 531" fill="none" stroke="#587487" stroke-width="2.6" marker-end="url(#arrow)"/>
+
+<rect x="346" y="629" width="223" height="71" rx="12" fill="#fff" stroke="#dfa58b" stroke-width="2"/>
+<text x="457" y="656" font-size="17" fill="#9c5034" font-weight="700" text-anchor="middle">继续持有空头</text>
+<text x="457" y="681" font-size="14" fill="#8f553d" text-anchor="middle">仍可能被指派</text>
+<path d="M174 590 L174 665 L346 665" fill="none" stroke="#587487" stroke-width="2.6" marker-end="url(#arrow)"/>
+
+<rect x="641" y="615" width="396" height="96" rx="12" fill="#fff" stroke="#dfa58b" stroke-width="2"/>
+<text x="839" y="642" font-size="18" fill="#9c5034" text-anchor="middle" font-weight="700">Assignment → Settlement</text>
+<text x="839" y="668" font-size="14" fill="#8f553d" text-anchor="middle">短 Call：可能交付股票 / 形成股票空仓</text>
+<text x="839" y="689" font-size="14" fill="#8f553d" text-anchor="middle">短 Put：可能买入股票 / 需要行权资金</text>
+<path d="M569 665 L641 665" fill="none" stroke="#587487" stroke-width="2.6" marker-end="url(#arrow)"/>
+
+<text x="55" y="766" font-size="14" fill="#536678">注：行权/指派先经券商与 OCC 的清算分配流程；不同产品可能现金结算。到期和盘后风险不由图示消除。</text>
+</g>
+</svg>

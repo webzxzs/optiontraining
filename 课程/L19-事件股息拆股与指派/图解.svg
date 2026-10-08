@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1260 1070" width="1260" height="1070" role="img" aria-labelledby="title desc">
+<title id="title">L19财报事件、除息日短Call提前指派和到期盘后例外行权的三个独立情景</title>
+<desc id="desc">独立三个教学案例。财报跨式ABC100美元，K100同到期30天，Long Straddle成本1200、Short收1100，长跨式在股票到期70、100、130时净盈利分别1800、负1200、1800。除息案例ABC108、K100短Call Ask8.25，内在8、外在0.25，普通股息1.2美元每股，提前行权有经济激励但是否指派不确定；短Call如指派按100卖100股毛卖款10000美元，无股可能形成负100股。独立到期风险案例收盘99.98的短C100价外、盘后涨至100.80，持有人可在许可的时间例外行权，若实际指派则卖股毛款10000、股票负100股，按100.80标价浮亏80。图中箭头代表条件状态而非保证结果。</desc>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#6f879b"/></marker></defs>
+<rect width="1260" height="1070" rx="20" fill="#ffffff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="45" y="46" font-size="27" font-weight="700" fill="#203f56">L19｜事件发生时，期权会变成怎样的股票与现金义务？</text>
+<text x="45" y="78" font-size="15" fill="#617b8d">全部是不同日期的教学假设：股价报价、K、股息与盘后事件不属于同一市场快照。</text>
+<text x="45" y="104" font-size="15" fill="#617b8d">实线箭头只表示可能发生的事件路径；短Call指派及例外行权均不是100%保证。</text>
+<rect x="45" y="134" width="1168" height="242" rx="13" fill="#f7faff" stroke="#dce8f0"/>
+<text x="63" y="165" font-size="19" font-weight="700" fill="#247a98">事件A｜财报跨式：同一终价分布，多空不同报价与尾部收益</text>
+<rect x="64" y="182" width="347" height="174" rx="11" fill="#ffffff" stroke="#247a98" stroke-width="2"/>
+<text x="81" y="213" font-size="18" font-weight="700" fill="#247a98">公告前：ABC $100</text>
+<text x="81" y="248" font-size="15" fill="#49647b">K100 Call/Put，30天</text>
+<text x="81" y="288" font-size="15" fill="#49647b">Long Debit $1,200</text>
+<text x="81" y="324" font-size="15" font-weight="600" fill="#247a98">Short Credit $1,100</text>
+<rect x="449" y="182" width="347" height="174" rx="11" fill="#ffffff" stroke="#247a98" stroke-width="2"/>
+<text x="466" y="213" font-size="18" font-weight="700" fill="#247a98">财报盘后跳空</text>
+<text x="466" y="248" font-size="15" fill="#49647b">股价瞬间变化；期权可能不可交易</text>
+<text x="466" y="288" font-size="15" fill="#49647b">Greeks局部近似失效</text>
+<text x="466" y="324" font-size="15" font-weight="600" fill="#247a98">IV Crush不保证收益</text>
+<rect x="834" y="182" width="347" height="174" rx="11" fill="#ffffff" stroke="#247a98" stroke-width="2"/>
+<text x="851" y="213" font-size="18" font-weight="700" fill="#247a98">30天到期净P/L</text>
+<text x="851" y="248" font-size="15" fill="#49647b">终价70：Long +$1,800</text>
+<text x="851" y="288" font-size="15" fill="#49647b">终价100：Long −$1,200</text>
+<text x="851" y="324" font-size="15" font-weight="600" fill="#247a98">终价130：Long +$1,800</text>
+<path d="M421 268 L446 268" stroke="#247a98" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M806 268 L831 268" stroke="#247a98" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="45" y="430" width="1168" height="242" rx="13" fill="#f7faff" stroke="#dce8f0"/>
+<text x="63" y="461" font-size="19" font-weight="700" fill="#8a5cb1">事件B｜除息前的美式短Call：观察外在价值，检查股票义务</text>
+<rect x="64" y="478" width="347" height="174" rx="11" fill="#ffffff" stroke="#8a5cb1" stroke-width="2"/>
+<text x="81" y="509" font-size="18" font-weight="700" fill="#8a5cb1">股价$108，短C100</text>
+<text x="81" y="544" font-size="15" fill="#49647b">Ask $8.25，内在$8.00</text>
+<text x="81" y="584" font-size="15" fill="#49647b">外在$0.25/股</text>
+<text x="81" y="620" font-size="15" font-weight="600" fill="#8a5cb1">普通股息$1.20/股</text>
+<rect x="449" y="478" width="347" height="174" rx="11" fill="#ffffff" stroke="#8a5cb1" stroke-width="2"/>
+<text x="466" y="509" font-size="18" font-weight="700" fill="#8a5cb1">持有人可能提前行权</text>
+<text x="466" y="544" font-size="15" fill="#49647b">股息大于外在：动机增强</text>
+<text x="466" y="584" font-size="15" fill="#49647b">≠ 必然行权或指派</text>
+<text x="466" y="620" font-size="15" font-weight="600" fill="#8a5cb1">需核对券商及交割</text>
+<rect x="834" y="478" width="347" height="174" rx="11" fill="#ffffff" stroke="#8a5cb1" stroke-width="2"/>
+<text x="851" y="509" font-size="18" font-weight="700" fill="#8a5cb1">若空Call被指派</text>
+<text x="851" y="544" font-size="15" fill="#49647b">按K100卖出100股</text>
+<text x="851" y="584" font-size="15" fill="#49647b">股票卖款毛额$10,000</text>
+<text x="851" y="620" font-size="15" font-weight="600" fill="#8a5cb1">裸仓可能变−100股</text>
+<path d="M421 564 L446 564" stroke="#8a5cb1" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M806 564 L831 564" stroke="#8a5cb1" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="45" y="726" width="1168" height="242" rx="13" fill="#f7faff" stroke="#dce8f0"/>
+<text x="63" y="757" font-size="19" font-weight="700" fill="#bb7046">事件C｜到期Pin：常规收盘价外，盘后仍可能出现例外行权</text>
+<rect x="64" y="774" width="347" height="174" rx="11" fill="#ffffff" stroke="#bb7046" stroke-width="2"/>
+<text x="81" y="805" font-size="18" font-weight="700" fill="#bb7046">周五收盘$99.98</text>
+<text x="81" y="840" font-size="15" fill="#49647b">短C100价外$0.02</text>
+<text x="81" y="880" font-size="15" fill="#49647b">通常不触发ITM $0.01</text>
+<text x="81" y="916" font-size="15" font-weight="600" fill="#bb7046">不可据此保证不指派</text>
+<rect x="449" y="774" width="347" height="174" rx="11" fill="#ffffff" stroke="#bb7046" stroke-width="2"/>
+<text x="466" y="805" font-size="18" font-weight="700" fill="#bb7046">盘后股价$100.80</text>
+<text x="466" y="840" font-size="15" fill="#49647b">持有人可申请例外行权</text>
+<text x="466" y="880" font-size="15" fill="#49647b">券商客户截止各异</text>
+<text x="466" y="916" font-size="15" font-weight="600" fill="#bb7046">空头实际是否指派未知</text>
+<rect x="834" y="774" width="347" height="174" rx="11" fill="#ffffff" stroke="#bb7046" stroke-width="2"/>
+<text x="851" y="805" font-size="18" font-weight="700" fill="#bb7046">若被指派且允许空股</text>
+<text x="851" y="840" font-size="15" fill="#49647b">按$100卖100股：+$10,000毛款</text>
+<text x="851" y="880" font-size="15" fill="#49647b">账户股票−100股</text>
+<text x="851" y="916" font-size="15" font-weight="600" fill="#bb7046">按$100.80标价亏$80</text>
+<path d="M421 860 L446 860" stroke="#bb7046" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<path d="M806 860 L831 860" stroke="#bb7046" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="45" y="1025" font-size="14" fill="#587387">普通股息一般不直接改K；拆股、特别股息、并购应单独查OCC调整合约备忘录。</text>
+<text x="45" y="1047" font-size="13" fill="#8195a1">美式标准个股期权：100股/张仅限未调整合约，指派分配和客户截止以OCC及实际券商规则为准。</text>
+</g></svg>

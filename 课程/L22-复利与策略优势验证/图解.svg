@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1300 1250" width="1300" height="1250" role="img" aria-labelledby="t d">
+<title id="t">L22高胜率期权卖方策略的两种账户顺序、最大回撤与交易成本冲击</title>
+<desc id="d">教学假设，账户起始净值10000美元，20笔独立已清算期权策略19笔各收益150美元、1笔亏3200。上图两条资金曲线先19胜后1负从10000升到12850最后9650，按完成交易净值观察最大回撤24.90%；先1负后19胜账户先跌到6800，再逐笔恢复至9650，最大回撤32%，可能先触发风控暂停。下图柱状显示基线总盈2850总亏负3200净负350，额外每笔增加16美元未包含在原价中的交易成本后总盈2546总亏负3216净负670。图非实盘、并未覆盖期中保证金或跳空、不能推导真实胜率或真实最大亏损。</desc>
+<rect width="1300" height="1250" rx="18" fill="#fff"/>
+<g font-family="Microsoft YaHei, Noto Sans CJK SC, sans-serif">
+<text x="46" y="45" font-size="27" font-weight="700" fill="#1e4057">L22｜95%胜率仍亏钱：时间顺序、成本与复利风险</text>
+<text x="46" y="76" font-size="15" fill="#61798a">虚构20笔：19×+$150、1×−$3,200，初始净值$10,000；基线结果已含基础成本，额外滑价另做压力。</text>
+<text x="46" y="115" font-size="20" font-weight="700" fill="#36546d">一、同样的固定美元交易收益，账户历史峰值与回撤却不一样</text>
+<line x1="52" y1="155" x2="99" y2="155" stroke="#2584a0" stroke-width="4"/><text x="107" y="161" font-size="16" fill="#4e677a">先19次盈利，最后一次尾部：MDD 24.90%</text>
+<line x1="660" y1="155" x2="707" y2="155" stroke="#c87c49" stroke-width="4"/><text x="716" y="161" font-size="16" fill="#4e677a">先发生尾部，再19次盈利：MDD 32.00%</text>
+<rect x="145" y="213" width="1010" height="315" rx="6" fill="#fbfcfe"/>
+<line x1="145.0" y1="213" x2="145.0" y2="528" stroke="#e6edf3"/><text x="145.0" y="552" text-anchor="middle" fill="#627b8d" font-size="13">0</text><line x1="195.5" y1="213" x2="195.5" y2="528" stroke="#e6edf3"/><text x="195.5" y="552" text-anchor="middle" fill="#627b8d" font-size="13">1</text><line x1="397.5" y1="213" x2="397.5" y2="528" stroke="#e6edf3"/><text x="397.5" y="552" text-anchor="middle" fill="#627b8d" font-size="13">5</text><line x1="650.0" y1="213" x2="650.0" y2="528" stroke="#e6edf3"/><text x="650.0" y="552" text-anchor="middle" fill="#627b8d" font-size="13">10</text><line x1="902.5" y1="213" x2="902.5" y2="528" stroke="#e6edf3"/><text x="902.5" y="552" text-anchor="middle" fill="#627b8d" font-size="13">15</text><line x1="1104.5" y1="213" x2="1104.5" y2="528" stroke="#e6edf3"/><text x="1104.5" y="552" text-anchor="middle" fill="#627b8d" font-size="13">19</text><line x1="1155.0" y1="213" x2="1155.0" y2="528" stroke="#e6edf3"/><text x="1155.0" y="552" text-anchor="middle" fill="#627b8d" font-size="13">20</text><line x1="145" y1="528.0" x2="1155" y2="528.0" stroke="#e5edf4" stroke-width="1"/><text x="130" y="533.0" text-anchor="end" fill="#637c8c" font-size="14">6,500</text><line x1="145" y1="455.3" x2="1155" y2="455.3" stroke="#e5edf4" stroke-width="1"/><text x="130" y="460.3" text-anchor="end" fill="#637c8c" font-size="14">8,000</text><line x1="145" y1="358.4" x2="1155" y2="358.4" stroke="#9cb0bd" stroke-width="2"/><text x="130" y="363.4" text-anchor="end" fill="#637c8c" font-size="14">10,000</text><line x1="145" y1="285.7" x2="1155" y2="285.7" stroke="#e5edf4" stroke-width="1"/><text x="130" y="290.7" text-anchor="end" fill="#637c8c" font-size="14">11,500</text><line x1="145" y1="213.0" x2="1155" y2="213.0" stroke="#e5edf4" stroke-width="1"/><text x="130" y="218.0" text-anchor="end" fill="#637c8c" font-size="14">13,000</text><path d="M145.0,358.4 L195.5,351.1 L246.0,343.8 L296.5,336.6 L347.0,329.3 L397.5,322.0 L448.0,314.8 L498.5,307.5 L549.0,300.2 L599.5,293.0 L650.0,285.7 L700.5,278.4 L751.0,271.2 L801.5,263.9 L852.0,256.6 L902.5,249.3 L953.0,242.1 L1003.5,234.8 L1054.0,227.5 L1104.5,220.3 L1155.0,375.3" stroke="#2584a0" stroke-width="3.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M145.0,358.4 L195.5,513.5 L246.0,506.2 L296.5,498.9 L347.0,491.7 L397.5,484.4 L448.0,477.1 L498.5,469.8 L549.0,462.6 L599.5,455.3 L650.0,448.0 L700.5,440.8 L751.0,433.5 L801.5,426.2 L852.0,419.0 L902.5,411.7 L953.0,404.4 L1003.5,397.2 L1054.0,389.9 L1104.5,382.6 L1155.0,375.3" stroke="#c87c49" stroke-width="3.7" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="1104.5" cy="220.26923076923077" r="5" fill="#2584a0"/><text x="929.5" y="202.26923076923077" font-size="15" fill="#2584a0" font-weight="600">$12,850 末次亏前峰值</text>
+<circle cx="195.5" cy="513.4615384615385" r="5" fill="#c87c49"/><text x="205.5" y="544.4615384615385" font-size="15" fill="#c87c49" font-weight="600">$6,800 早期大亏</text>
+<circle cx="1155" cy="375.3461538461538" r="5" fill="#526f7c"/><text x="987" y="397.3461538461538" font-size="15" fill="#526f7c" font-weight="600">$9,650 相同终值</text>
+<text x="650" y="588" text-anchor="middle" font-size="16" fill="#526b7c">完全结算的交易次数（不代表日度盯市，也不代表一定能完成后续交易）</text>
+<text x="46" y="624" font-size="15" fill="#a8654b" font-weight="700">若风险规则为25%高水位回撤暂停：早期亏损路径第1笔即触发；不能假设一定做完20笔。</text>
+<text x="46" y="657" font-size="20" font-weight="700" fill="#36546d">二、基线交易经济利润与额外成本压力：胜率仍95%，净值更差</text>
+<rect x="144" y="706" width="1011" height="355" rx="7" fill="#fbfcfe"/>
+<line x1="145" y1="850" x2="1155" y2="850" stroke="#899ba8" stroke-width="2"/>
+<text x="405" y="684" font-size="18" fill="#357f97" font-weight="700" text-anchor="middle">基线20笔：−$350</text><rect x="260" y="694.7" width="72" height="155.3" rx="6" fill="#36947b" opacity="0.95"/>
+<text x="296" y="682.7" text-anchor="middle" font-size="16" font-weight="700" fill="#277d66">+$2,850</text>
+<text x="296" y="1093" text-anchor="middle" font-size="14" fill="#567184">总盈利</text>
+<rect x="382" y="850.0" width="72" height="174.4" rx="6" fill="#c07558" opacity="0.95"/>
+<text x="418" y="1050.4" text-anchor="middle" font-size="16" font-weight="700" fill="#b76349">−$3,200</text>
+<text x="418" y="1093" text-anchor="middle" font-size="14" fill="#567184">总亏损</text>
+<rect x="504" y="850.0" width="72" height="19.1" rx="6" fill="#c07558" opacity="0.95"/>
+<text x="540" y="895.1" text-anchor="middle" font-size="16" font-weight="700" fill="#b76349">−$350</text>
+<text x="540" y="1093" text-anchor="middle" font-size="14" fill="#567184">净收益</text>
+<text x="935" y="684" font-size="18" fill="#bd7152" font-weight="700" text-anchor="middle">额外$16/笔：−$670</text><rect x="790" y="711.2" width="72" height="138.8" rx="6" fill="#36947b" opacity="0.95"/>
+<text x="826" y="699.2" text-anchor="middle" font-size="16" font-weight="700" fill="#277d66">+$2,546</text>
+<text x="826" y="1093" text-anchor="middle" font-size="14" fill="#567184">总盈利</text>
+<rect x="912" y="850.0" width="72" height="175.3" rx="6" fill="#c07558" opacity="0.95"/>
+<text x="948" y="1051.3" text-anchor="middle" font-size="16" font-weight="700" fill="#b76349">−$3,216</text>
+<text x="948" y="1093" text-anchor="middle" font-size="14" fill="#567184">总亏损</text>
+<rect x="1034" y="850.0" width="72" height="36.5" rx="6" fill="#c07558" opacity="0.95"/>
+<text x="1070" y="912.5" text-anchor="middle" font-size="16" font-weight="700" fill="#b76349">−$670</text>
+<text x="1070" y="1093" text-anchor="middle" font-size="14" fill="#567184">净收益</text>
+<text x="46" y="1140" font-size="16" font-weight="600" fill="#9b563f">基线盈利19×150 = $2,850；唯一尾部亏$3,200，净−$350；每笔额外成本$16后净−$670。</text>
+<text x="46" y="1172" font-size="15" fill="#4f6e81">基线收支平衡真实胜率要超过95.5224%；额外成本后要达到96%，且真实尾部还可能更大。</text>
+<text x="46" y="1210" font-size="13" fill="#6f8798">仅供教材：成交时点/股数/保证金、资金加权收益及杠杆均未从图推断。历史最差−$3,200不等于短期权风险上限。</text>
+</g></svg>
