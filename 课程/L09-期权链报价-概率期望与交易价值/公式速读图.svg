@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1875" viewBox="0 0 1240 1875" role="img" aria-label="L09期权公式速读图">
+<rect x="0" y="0" width="1240" height="1875" rx="0" fill="#f6f8fc" stroke="none" stroke-width="1"/>
+<rect x="62" y="41" width="191" height="42" rx="19" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="85" y="70" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8" >L09 / 公式速读</text>
+<text x="65" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#102a43" >期权链报价与主观期望值</text>
+<text x="65" y="179" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#48576a" >先看真实能成交的Bid/Ask，再用情景验证是否值得做。</text>
+<rect x="62" y="229" width="1116" height="3" rx="1" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="62" y="260" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="276" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="305" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >01  Mid｜只是报价中点</text>
+<rect x="83" y="344" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="384" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >中间价Mid = (Bid + Ask) ÷ 2</text>
+<text x="93" y="453" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： Mid有助于比较盘口，但不是一定能成交的价格。</text>
+<rect x="83" y="495" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="531" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： Bid=9.40、Ask=10.00 → Mid=9.70美元/股</text>
+<text x="93" y="593" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 实际买入可能需付Ask，卖出只能拿Bid。</text>
+<rect x="62" y="658" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="674" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="703" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >02  买卖价差｜交易的起跑成本</text>
+<rect x="83" y="742" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="782" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >立即买入再卖出价差 ≈ (Ask − Bid) × 乘数</text>
+<text x="93" y="851" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 即使标的未动，买卖价差也可能形成损失。</text>
+<rect x="83" y="893" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="929" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 价差0.60美元/股、乘数100 → 一张约60美元</text>
+<text x="93" y="991" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 未计手续费；市场变化时盘口也会变化。</text>
+<rect x="62" y="1056" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="1072" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="1101" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >03  真实情景期望值</text>
+<rect x="83" y="1140" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="1180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >预期净盈亏 = Σ(情景概率 × 该情景净盈亏)</text>
+<text x="93" y="1249" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 把每种可能结果按主观概率加权，之后再看风险。</text>
+<rect x="83" y="1291" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="1327" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 30%赢500、70%亏300 → 0.30×500−0.70×300 = −60美元</text>
+<text x="93" y="1389" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 概率为教学假设；市场隐含Q不是你真实预测的P。</text>
+<rect x="62" y="1457" width="1116" height="153" rx="19" fill="#e9f0fb" stroke="none" stroke-width="1"/>
+<text x="92" y="1503" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#173968" >符号和单位｜不要猜缩写</text>
+<text x="92" y="1545" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >Bid＝最高买价；Ask＝最低卖价；Mid＝中点；Σ＝逐项相加；P＝真实主观概率；Q＝风险中</text>
+<text x="92" y="1580" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >性概率。</text>
+<rect x="62" y="1634" width="1116" height="166" rx="19" fill="#fff7e8" stroke="none" stroke-width="1"/>
+<text x="92" y="1680" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#905320" >两条最容易踩的坑</text>
+<text x="92" y="1723" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 赚钱概率高，不保证期望值为正，更不保证账户能够撑到到期。</text>
+<text x="92" y="1764" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 把Mid当成交价往往高估可执行策略收益。</text>
+<text x="65" y="1833" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#677489" >独立教学示例｜忽略费用等简化假设已标明｜以讲义合约条件和官方规则为准</text>
+</svg>

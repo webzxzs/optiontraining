@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1840" viewBox="0 0 1240 1840" role="img" aria-label="L10期权公式速读图">
+<rect x="0" y="0" width="1240" height="1840" rx="0" fill="#f6f8fc" stroke="none" stroke-width="1"/>
+<rect x="62" y="41" width="191" height="42" rx="19" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="85" y="70" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8" >L10 / 公式速读</text>
+<text x="65" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#102a43" >长期Call、Put与持股</text>
+<text x="65" y="179" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#48576a" >比较同一股票观点下谁付钱、谁承担时间风险。</text>
+<rect x="62" y="229" width="1116" height="3" rx="1" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="62" y="260" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="276" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="305" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >01  买长期Call的到期保本价</text>
+<rect x="83" y="344" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="384" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >Call到期保本股价 = 行权价 + 已付权利金</text>
+<text x="93" y="453" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 上涨必须先覆盖期权购买成本。</text>
+<rect x="83" y="495" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="531" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： K100、买入Call权利金8 → 保本股价108美元</text>
+<text x="93" y="593" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 时间越长也不保证足够上涨；费用需另计。</text>
+<rect x="62" y="658" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="674" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="703" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >02  买Call的最大损失</text>
+<rect x="83" y="742" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="782" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >最大亏损 = 每股权利金 × 每张股数 × 张数</text>
+<text x="93" y="851" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 买方最坏情况可以让合约到期归零。</text>
+<rect x="83" y="893" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="929" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 1张、权利金8、乘数100 → 最大亏损800美元</text>
+<text x="93" y="991" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 不代表持有期间能够随时按合适价格退出。</text>
+<rect x="62" y="1056" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="1072" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="1101" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >03  正股与Call在同一终价比较</text>
+<rect x="83" y="1140" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="1180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >持股盈亏 = (到期股价 − 买入股价) × 股数</text>
+<text x="93" y="1249" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 要用同一时间、标的和总风险预算公平比较。</text>
+<rect x="83" y="1291" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="1327" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 股价100→120：100股赚2,000美元；K100的Call付8赚1,200美元</text>
+<text x="93" y="1389" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 两种工具初始占资不同，不能只比利润百分比。</text>
+<rect x="62" y="1457" width="1116" height="118" rx="19" fill="#e9f0fb" stroke="none" stroke-width="1"/>
+<text x="92" y="1503" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#173968" >符号和单位｜不要猜缩写</text>
+<text x="92" y="1545" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >LEAPS＝长期到期期权；K＝行权价；权利金为每股报价，图中标准合约为100股。</text>
+<rect x="62" y="1599" width="1116" height="166" rx="19" fill="#fff7e8" stroke="none" stroke-width="1"/>
+<text x="92" y="1645" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#905320" >两条最容易踩的坑</text>
+<text x="92" y="1688" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• Call看对方向仍可能因幅度不足或兑现太晚而亏损。</text>
+<text x="92" y="1729" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 低资金占用不等于同等风险的高回报。</text>
+<text x="65" y="1798" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#677489" >独立教学示例｜忽略费用等简化假设已标明｜以讲义合约条件和官方规则为准</text>
+</svg>

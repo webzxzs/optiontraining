@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1840" viewBox="0 0 1240 1840" role="img" aria-label="L20期权公式速读图">
+<rect x="0" y="0" width="1240" height="1840" rx="0" fill="#f6f8fc" stroke="none" stroke-width="1"/>
+<rect x="62" y="41" width="191" height="42" rx="19" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="85" y="70" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8" >L20 / 公式速读</text>
+<text x="65" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#102a43" >到底买哪一张期权</text>
+<text x="65" y="179" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#48576a" >期限、行权价和可执行买入价要合起来看。</text>
+<rect x="62" y="229" width="1116" height="3" rx="1" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="62" y="260" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="276" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="305" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >01  买Call真正的到期保本门槛</text>
+<rect x="83" y="344" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="384" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >保本股价 = K + 买入Ask + 每股分摊交易费</text>
+<text x="93" y="453" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 用可执行的买入成本，而不是理想的Mid估计保本。</text>
+<rect x="83" y="495" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="531" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： K100、Ask6、每张手续费1美元 → 保本价106.01美元</text>
+<text x="93" y="593" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 同一合约100股；其他退出滑点仍未计入。</text>
+<rect x="62" y="658" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="674" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="703" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >02  买Call到期盈亏</text>
+<rect x="83" y="742" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="782" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >到期盈亏 = [max(到期价−K,0)−Ask]×乘数 − 费用</text>
+<text x="93" y="851" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 比较合约要看同一终价、同一时间的净收益。</text>
+<rect x="83" y="893" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="929" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： K100、Ask6、到期110、不计费用 → 盈利400美元</text>
+<text x="93" y="991" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 不是中途期权市场可卖价格。</text>
+<rect x="62" y="1056" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="1072" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="1101" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >03  不同K可以得出不同结果</text>
+<rect x="83" y="1140" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="1180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >到期每股净盈亏 = max(终价−K,0) − 买入权利金</text>
+<text x="93" y="1249" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 便宜的高K并不等于更划算，要核对盈亏门槛。</text>
+<rect x="83" y="1291" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="1327" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 终价110：K95付9赚6/股；K105付3赚2/股</text>
+<text x="93" y="1389" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 仍要比较资金占用、风险、真实Bid/Ask与到期时点。</text>
+<rect x="62" y="1457" width="1116" height="118" rx="19" fill="#e9f0fb" stroke="none" stroke-width="1"/>
+<text x="92" y="1503" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#173968" >符号和单位｜不要猜缩写</text>
+<text x="92" y="1545" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >Ask＝卖方最低报价（买方成本参考）；K＝行权价；Mid＝买卖盘中点；乘数＝每张股数。</text>
+<rect x="62" y="1599" width="1116" height="166" rx="19" fill="#fff7e8" stroke="none" stroke-width="1"/>
+<text x="92" y="1645" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#905320" >两条最容易踩的坑</text>
+<text x="92" y="1688" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• “股价要涨”不是有效的合约选型规则，还必须问何时涨多大。</text>
+<text x="92" y="1729" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 以Mid测算长期策略常会高估实际可买到的表现。</text>
+<text x="65" y="1798" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#677489" >独立教学示例｜忽略费用等简化假设已标明｜以讲义合约条件和官方规则为准</text>
+</svg>

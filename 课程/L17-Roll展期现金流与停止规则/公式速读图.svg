@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1875" viewBox="0 0 1240 1875" role="img" aria-label="L17期权公式速读图">
+<rect x="0" y="0" width="1240" height="1875" rx="0" fill="#f6f8fc" stroke="none" stroke-width="1"/>
+<rect x="62" y="41" width="191" height="42" rx="19" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="85" y="70" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8" >L17 / 公式速读</text>
+<text x="65" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#102a43" >Roll不是抹去亏损</text>
+<text x="65" y="179" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#48576a" >展期就是一笔旧仓平仓，外加一笔新仓开仓。</text>
+<rect x="62" y="229" width="1116" height="3" rx="1" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="62" y="260" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="276" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="305" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >01  旧仓必须先结账</text>
+<rect x="83" y="344" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="384" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >旧仓已实现盈亏 = 最初收款 − 回补付款</text>
+<text x="93" y="453" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 回补价格比最初收到的更贵，旧交易仍然亏了。</text>
+<rect x="83" y="495" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="531" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 旧卖Put收3，后来花7买回 → (3−7)×100 = −400美元</text>
+<text x="93" y="593" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 忽略手续费；亏损不会因新卖一张Put而消失。</text>
+<rect x="62" y="658" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="674" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="703" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >02  展期时总累计现金流</text>
+<rect x="83" y="742" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="782" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >到目前累计现金流 = 旧仓收款 − 旧仓回补款 + 新仓收款</text>
+<text x="93" y="851" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 新收到的Credit属于新的风险合约，不能算旧仓已扭亏。</text>
+<rect x="83" y="893" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="929" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 旧收300、回补700、新收500 → 累计现金流+100美元</text>
+<text x="93" y="991" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 新仓仍未平，+100不等于已经实现+100利润。</text>
+<rect x="62" y="1056" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="1072" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="1101" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >03  最终整体结果看新仓的结局</text>
+<rect x="83" y="1140" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="1180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >全部交易净盈亏 = 累计现金流 − 新仓最终履约/平仓成本</text>
+<text x="93" y="1249" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 直到新仓关闭，展期的真正经济结果才完整。</text>
+<rect x="83" y="1291" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="1327" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 若新仓后来需900美元平仓 → 累计100−900=−800美元</text>
+<text x="93" y="1389" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 有提前指派、滑点、时间和保证金等风险。</text>
+<rect x="62" y="1457" width="1116" height="153" rx="19" fill="#e9f0fb" stroke="none" stroke-width="1"/>
+<text x="92" y="1503" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#173968" >符号和单位｜不要猜缩写</text>
+<text x="92" y="1545" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >Roll＝平旧仓＋开新仓；Credit＝净收款；Debit＝净付款；P/L＝已实现加未实现经济盈亏</text>
+<text x="92" y="1580" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >。</text>
+<rect x="62" y="1634" width="1116" height="166" rx="19" fill="#fff7e8" stroke="none" stroke-width="1"/>
+<text x="92" y="1680" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#905320" >两条最容易踩的坑</text>
+<text x="92" y="1723" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 新仓收了比旧亏损更多的钱，也不能把所有收款叫盈利。</text>
+<text x="92" y="1764" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 连续展期不是债务消失术：要重新评估股票价值和资金约束。</text>
+<text x="65" y="1833" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#677489" >独立教学示例｜忽略费用等简化假设已标明｜以讲义合约条件和官方规则为准</text>
+</svg>

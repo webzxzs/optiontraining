@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1875" viewBox="0 0 1240 1875" role="img" aria-label="L03期权公式速读图">
+<rect x="0" y="0" width="1240" height="1875" rx="0" fill="#f6f8fc" stroke="none" stroke-width="1"/>
+<rect x="62" y="41" width="191" height="42" rx="19" fill="#dbeafe" stroke="none" stroke-width="1"/>
+<text x="85" y="70" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="700" fill="#1d4ed8" >L03 / 公式速读</text>
+<text x="65" y="126" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="38" font-weight="700" fill="#102a43" >一张期权为什么值这个价</text>
+<text x="65" y="179" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="24" font-weight="400" fill="#48576a" >先拆内在价值，再看外在价值，最后讨论IV与成交价格。</text>
+<rect x="62" y="229" width="1116" height="3" rx="1" fill="#2563eb" stroke="none" stroke-width="1"/>
+<rect x="62" y="260" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="276" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="305" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >01  Call当前内在价值</text>
+<rect x="83" y="344" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="384" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >看涨内在价值/股 = max(当前股价 − K, 0)</text>
+<text x="93" y="453" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 只有立即行权有利的部分，才属于Call的内在价值。</text>
+<rect x="83" y="495" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="531" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 当前股价105、K100 → 内在价值5美元/股</text>
+<text x="93" y="593" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 美式普通股票期权的内在价值定义；不含交易费用。</text>
+<rect x="62" y="658" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="674" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="703" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >02  Put当前内在价值</text>
+<rect x="83" y="742" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="782" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >看跌内在价值/股 = max(K − 当前股价, 0)</text>
+<text x="93" y="851" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 股票越低于Put的行权价，内在价值通常越高。</text>
+<rect x="83" y="893" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="929" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： 当前股价94、K100 → 内在价值6美元/股</text>
+<text x="93" y="991" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 价外期权内在价值为零，但仍可能有外在价值。</text>
+<rect x="62" y="1056" width="1116" height="378" rx="22" fill="white" stroke="#d9e1ed" stroke-width="2"/>
+<rect x="62" y="1072" width="5" height="346" rx="2" fill="#3b82f6" stroke="none" stroke-width="1"/>
+<text x="92" y="1101" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#162d48" >03  外在价值（常被叫时间价值）</text>
+<rect x="83" y="1140" width="1064" height="70" rx="13" fill="#eff6ff" stroke="none" stroke-width="1"/>
+<text x="107" y="1180" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="28" font-weight="700" fill="#1445a0" >外在价值 = 期权报价 − 内在价值</text>
+<text x="93" y="1249" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#31445b" >人话解释： 支付的溢价中，超过立刻行权价值的部分。</text>
+<rect x="83" y="1291" width="1064" height="60" rx="13" fill="#eaf8f0" stroke="none" stroke-width="1"/>
+<text x="107" y="1327" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="600" fill="#146c44" >数字代入： Call报价7.20、内在价值5 → 外在价值2.20美元/股</text>
+<text x="93" y="1389" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="20" font-weight="400" fill="#58677a" >使用边界： 报价需明确Bid、Ask或Mid；IV不是能直接加减的现金。</text>
+<rect x="62" y="1457" width="1116" height="153" rx="19" fill="#e9f0fb" stroke="none" stroke-width="1"/>
+<text x="92" y="1503" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#173968" >符号和单位｜不要猜缩写</text>
+<text x="92" y="1545" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >当前股价＝此刻的股票价格；K＝行权价；IV＝市场价格反推的隐含波动率；RV＝历史或未来</text>
+<text x="92" y="1580" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="23" font-weight="400" fill="#344b68" >实现波动率。</text>
+<rect x="62" y="1634" width="1116" height="166" rx="19" fill="#fff7e8" stroke="none" stroke-width="1"/>
+<text x="92" y="1680" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="26" font-weight="700" fill="#905320" >两条最容易踩的坑</text>
+<text x="92" y="1723" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• 价外期权“内在价值为零”并不等于价格为零。</text>
+<text x="92" y="1764" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="22" font-weight="400" fill="#704b25" >• IV不是交易所额外发给你的收益，也不是保证实现的涨跌幅。</text>
+<text x="65" y="1833" font-family="Microsoft YaHei, PingFang SC, Noto Sans CJK SC, sans-serif" font-size="18" font-weight="400" fill="#677489" >独立教学示例｜忽略费用等简化假设已标明｜以讲义合约条件和官方规则为准</text>
+</svg>
